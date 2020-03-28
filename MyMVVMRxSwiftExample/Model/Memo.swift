@@ -13,7 +13,7 @@ struct Memo: Equatable {
     var insertData: Date
     var identity: String
     
-    init(content: String, insertData: Date, identity: String) {
+    init(content: String, insertData: Date) {
         self.content = content
         self.insertData = insertData
         self.identity = "\(insertData.timeIntervalSinceReferenceDate)"
