@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7F7A08EC01CC9D366CE9DB56 /* Pods_MyMVVMRxSwiftExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C288913ABBBA85F85E185E04 /* Pods_MyMVVMRxSwiftExample.framework */; };
+		FB12945D242F9E4400A7E906 /* CommonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB12945C242F9E4400A7E906 /* CommonViewModel.swift */; };
 		FB78B0CB242F7B1E006B692E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB78B0CA242F7B1E006B692E /* AppDelegate.swift */; };
 		FB78B0CD242F7B1E006B692E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB78B0CC242F7B1E006B692E /* SceneDelegate.swift */; };
 		FB78B0D2242F7B1E006B692E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB78B0D0242F7B1E006B692E /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 		5FBF06D63833615E0CB9C197 /* Pods-MyMVVMRxSwiftExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMVVMRxSwiftExample.debug.xcconfig"; path = "Target Support Files/Pods-MyMVVMRxSwiftExample/Pods-MyMVVMRxSwiftExample.debug.xcconfig"; sourceTree = "<group>"; };
 		C288913ABBBA85F85E185E04 /* Pods_MyMVVMRxSwiftExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyMVVMRxSwiftExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6A9B13DF06349646CD2C66B /* Pods-MyMVVMRxSwiftExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMVVMRxSwiftExample.release.xcconfig"; path = "Target Support Files/Pods-MyMVVMRxSwiftExample/Pods-MyMVVMRxSwiftExample.release.xcconfig"; sourceTree = "<group>"; };
+		FB12945C242F9E4400A7E906 /* CommonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonViewModel.swift; sourceTree = "<group>"; };
 		FB78B0C7242F7B1E006B692E /* MyMVVMRxSwiftExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMVVMRxSwiftExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB78B0CA242F7B1E006B692E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB78B0CC242F7B1E006B692E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 				FB8A2FA9242F8FF600F3FE8C /* MemoListViewModel.swift */,
 				FB8A2FAB242F901F00F3FE8C /* MemoDetailsViewModel.swift */,
 				FB8A2FAD242F904500F3FE8C /* MemoComposeViewModel.swift */,
+				FB12945C242F9E4400A7E906 /* CommonViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -317,6 +320,7 @@
 				FB8A2FB6242F98B600F3FE8C /* SceneCoordinatorType.swift in Sources */,
 				FB78B0CD242F7B1E006B692E /* SceneDelegate.swift in Sources */,
 				FB8A2FAC242F901F00F3FE8C /* MemoDetailsViewModel.swift in Sources */,
+				FB12945D242F9E4400A7E906 /* CommonViewModel.swift in Sources */,
 				FB8A2FB2242F937600F3FE8C /* TransitionModel.swift in Sources */,
 				FB78B0E7242F7C5B006B692E /* Memo.swift in Sources */,
 				FB8A2FA8242F8FD100F3FE8C /* MemoComposeVC.swift in Sources */,
