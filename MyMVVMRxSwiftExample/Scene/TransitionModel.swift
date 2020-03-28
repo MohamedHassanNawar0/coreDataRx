@@ -11,7 +11,7 @@ import Foundation
 enum TransitionStyle {
     case root
     case push
-    case model
+    case modal
 }
 
 enum TransitionError: Error {

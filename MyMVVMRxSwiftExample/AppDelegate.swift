@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
         let storage = MemoryStorage()
-        let coordinator = SceneCoordinator(window: window ?? UIWindow())
+        let coordinator = SceneCoordinator(window: window!)
         let listViewModel = MemoListViewModel(title: "Memory list", sceneCoordinator: coordinator, storage: storage)
         let listScene = Scene.list(listViewModel)
         coordinator.transition(to: listScene, using: .root, animated: false)
