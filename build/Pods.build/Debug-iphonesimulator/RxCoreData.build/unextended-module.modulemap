@@ -1,0 +1,10 @@
+framework module RxCoreData {
+  umbrella header "RxCoreData-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module RxCoreData.__Swift {
+    exclude header "RxCoreData-Swift.h"
+}

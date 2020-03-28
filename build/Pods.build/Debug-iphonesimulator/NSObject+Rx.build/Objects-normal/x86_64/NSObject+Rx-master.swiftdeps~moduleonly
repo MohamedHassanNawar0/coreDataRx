@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "d66288ccd4046de10ec39b93b304966d"
+build_time: [1585426830, 765875000]
+inputs:
+  "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/Pods/NSObject+Rx/HasDisposeBag.swift": [1585398729, 494522071]
+  "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/Pods/NSObject+Rx/NSObject+Rx.swift": [1585398729, 494232051]

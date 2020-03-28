@@ -1,0 +1,12 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "1c8d4ec3b05ec9c7b5427114dd9161f5"
+build_time: [1585426836, 909678000]
+inputs:
+  "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/Pods/Action/Sources/Action/Action+Extensions.swift": [1585398729, 483513172]
+  "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/Pods/Action/Sources/Action/Action+Internal.swift": [1585398729, 482690313]
+  "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/Pods/Action/Sources/Action/Action.swift": [1585398729, 483720712]
+  "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/Pods/Action/Sources/Action/CommonUI/Button+Action.swift": [1585398729, 483293952]
+  "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/Pods/Action/Sources/Action/CommonUI/Control+Action.swift": [1585398729, 483052170]
+  "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/Pods/Action/Sources/Action/UIKitExtensions/UIAlertAction+Action.swift": [1585398729, 484608596]
+  "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/Pods/Action/Sources/Action/UIKitExtensions/UIBarButtonItem+Action.swift": [1585398729, 484381953]
+  "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/Pods/Action/Sources/Action/UIKitExtensions/UIRefreshControl+Action.swift": [1585398729, 484163091]

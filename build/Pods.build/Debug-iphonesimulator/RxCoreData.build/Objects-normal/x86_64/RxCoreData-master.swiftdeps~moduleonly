@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "a1254cf71f171b8e1077389a72fa5232"
+build_time: [1585426836, 904154000]
+inputs:
+  "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/Pods/RxCoreData/Sources/FetchedResultsControllerControllerEntityObserver.swift": [1585398729, 559243213]
+  "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/Pods/RxCoreData/Sources/FetchedResultsControllerSectionObserver.swift": [1585398729, 559703084]
+  "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/Pods/RxCoreData/Sources/NSManagedObjectContext+Rx.swift": [1585398729, 559487735]
+  "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/Pods/RxCoreData/Sources/Persistable.swift": [1585398729, 559905973]

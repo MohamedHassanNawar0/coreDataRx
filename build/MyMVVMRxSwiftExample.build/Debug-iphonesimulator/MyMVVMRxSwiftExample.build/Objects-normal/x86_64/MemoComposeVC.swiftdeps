@@ -1,0 +1,859 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MemoComposeVC"
+provides-nominal:
+- "20MyMVVMRxSwiftExample13MemoComposeVCC"
+provides-member:
+- ["20MyMVVMRxSwiftExample13MemoComposeVCC", ""]
+provides-dynamic-lookup:
+- "addButton"
+- "cancelButton"
+- "contentTextView"
+- "viewDidLoad"
+- "viewWillAppear"
+- "viewWillDisappear"
+depends-top-level:
+- "AssignmentPrecedence"
+- "Bool"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- !private "MainScheduler"
+- "MemoComposeVC"
+- "MemoComposeViewModel"
+- "UIBarButtonItem"
+- "UITextView"
+- "UIViewController"
+- "ViewModelBindbleType"
+depends-member:
+- !private ["6ActionAAC", "inputs"]
+- !private ["s18AdditiveArithmeticP", "milliseconds"]
+- !private ["SB", "milliseconds"]
+- !private ["So15CALayerDelegateP", "becomeFirstResponder"]
+- !private ["So15CALayerDelegateP", "isFirstResponder"]
+- !private ["So15CALayerDelegateP", "resignFirstResponder"]
+- !private ["So15CALayerDelegateP", "rx"]
+- !private ["s7CVarArgP", "MainScheduler"]
+- ["s7CVarArgP", "ViewModelType"]
+- ["s7CVarArgP", ""]
+- ["s7CVarArgP", "_Default_ViewModelType"]
+- !private ["s7CVarArgP", "addButton"]
+- !private ["s7CVarArgP", "becomeFirstResponder"]
+- ["s7CVarArgP", "bindViewModel"]
+- !private ["s7CVarArgP", "cancelAction"]
+- !private ["s7CVarArgP", "cancelButton"]
+- !private ["s7CVarArgP", "contentTextView"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "initialText"]
+- !private ["s7CVarArgP", "isFirstResponder"]
+- !private ["s7CVarArgP", "milliseconds"]
+- !private ["s7CVarArgP", "navigationItem"]
+- !private ["s7CVarArgP", "resignFirstResponder"]
+- !private ["s7CVarArgP", "rx"]
+- !private ["s7CVarArgP", "saveAction"]
+- !private ["s7CVarArgP", "title"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["s7CVarArgP", "viewModel"]
+- !private ["s7CVarArgP", "viewWillAppear"]
+- !private ["s7CVarArgP", "viewWillDisappear"]
+- !private ["20MyMVVMRxSwiftExample15CommonViewModelC", "cancelAction"]
+- !private ["20MyMVVMRxSwiftExample15CommonViewModelC", "initialText"]
+- !private ["20MyMVVMRxSwiftExample15CommonViewModelC", "saveAction"]
+- !private ["20MyMVVMRxSwiftExample15CommonViewModelC", "title"]
+- !private ["SL", "milliseconds"]
+- !private ["7RxCocoa12ControlEventV", "throttle"]
+- !private ["7RxCocoa16ControlEventTypeP", "throttle"]
+- !private ["7RxCocoa15ControlPropertyV", "orEmpty"]
+- !private ["7RxCocoa19ControlPropertyTypeP", "orEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "MainScheduler"]
+- ["s28CustomDebugStringConvertibleP", "ViewModelType"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_Default_ViewModelType"]
+- !private ["s28CustomDebugStringConvertibleP", "addButton"]
+- !private ["s28CustomDebugStringConvertibleP", "becomeFirstResponder"]
+- ["s28CustomDebugStringConvertibleP", "bindViewModel"]
+- !private ["s28CustomDebugStringConvertibleP", "cancelAction"]
+- !private ["s28CustomDebugStringConvertibleP", "cancelButton"]
+- !private ["s28CustomDebugStringConvertibleP", "contentTextView"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "initialText"]
+- !private ["s28CustomDebugStringConvertibleP", "isFirstResponder"]
+- !private ["s28CustomDebugStringConvertibleP", "milliseconds"]
+- !private ["s28CustomDebugStringConvertibleP", "navigationItem"]
+- !private ["s28CustomDebugStringConvertibleP", "resignFirstResponder"]
+- !private ["s28CustomDebugStringConvertibleP", "rx"]
+- !private ["s28CustomDebugStringConvertibleP", "saveAction"]
+- !private ["s28CustomDebugStringConvertibleP", "title"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- ["s28CustomDebugStringConvertibleP", "viewModel"]
+- !private ["s28CustomDebugStringConvertibleP", "viewWillAppear"]
+- !private ["s28CustomDebugStringConvertibleP", "viewWillDisappear"]
+- !private ["s17CustomReflectableP", "becomeFirstResponder"]
+- !private ["s17CustomReflectableP", "cancelAction"]
+- !private ["s17CustomReflectableP", "initialText"]
+- !private ["s17CustomReflectableP", "isFirstResponder"]
+- !private ["s17CustomReflectableP", "milliseconds"]
+- !private ["s17CustomReflectableP", "resignFirstResponder"]
+- !private ["s17CustomReflectableP", "rx"]
+- !private ["s17CustomReflectableP", "saveAction"]
+- !private ["s17CustomReflectableP", "title"]
+- !private ["s23CustomStringConvertibleP", "MainScheduler"]
+- ["s23CustomStringConvertibleP", "ViewModelType"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_ViewModelType"]
+- !private ["s23CustomStringConvertibleP", "addButton"]
+- !private ["s23CustomStringConvertibleP", "becomeFirstResponder"]
+- ["s23CustomStringConvertibleP", "bindViewModel"]
+- !private ["s23CustomStringConvertibleP", "cancelAction"]
+- !private ["s23CustomStringConvertibleP", "cancelButton"]
+- !private ["s23CustomStringConvertibleP", "contentTextView"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "initialText"]
+- !private ["s23CustomStringConvertibleP", "isFirstResponder"]
+- !private ["s23CustomStringConvertibleP", "milliseconds"]
+- !private ["s23CustomStringConvertibleP", "navigationItem"]
+- !private ["s23CustomStringConvertibleP", "resignFirstResponder"]
+- !private ["s23CustomStringConvertibleP", "rx"]
+- !private ["s23CustomStringConvertibleP", "saveAction"]
+- !private ["s23CustomStringConvertibleP", "title"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- ["s23CustomStringConvertibleP", "viewModel"]
+- !private ["s23CustomStringConvertibleP", "viewWillAppear"]
+- !private ["s23CustomStringConvertibleP", "viewWillDisappear"]
+- !private ["Se", "becomeFirstResponder"]
+- !private ["Se", "cancelAction"]
+- !private ["Se", "initialText"]
+- !private ["Se", "isFirstResponder"]
+- !private ["Se", "milliseconds"]
+- !private ["Se", "resignFirstResponder"]
+- !private ["Se", "rx"]
+- !private ["Se", "saveAction"]
+- !private ["Se", "title"]
+- !private ["8Dispatch0A12TimeIntervalO", "milliseconds"]
+- !private ["7RxSwift10DisposableP", "disposed"]
+- !private ["Sd", "milliseconds"]
+- !private ["SE", "becomeFirstResponder"]
+- !private ["SE", "cancelAction"]
+- !private ["SE", "initialText"]
+- !private ["SE", "isFirstResponder"]
+- !private ["SE", "milliseconds"]
+- !private ["SE", "resignFirstResponder"]
+- !private ["SE", "rx"]
+- !private ["SE", "saveAction"]
+- !private ["SE", "title"]
+- !private ["SQ", "MainScheduler"]
+- ["SQ", "ViewModelType"]
+- ["SQ", ""]
+- ["SQ", "_Default_ViewModelType"]
+- !private ["SQ", "addButton"]
+- !private ["SQ", "becomeFirstResponder"]
+- ["SQ", "bindViewModel"]
+- !private ["SQ", "cancelAction"]
+- !private ["SQ", "cancelButton"]
+- !private ["SQ", "contentTextView"]
+- !private ["SQ", "init"]
+- !private ["SQ", "initialText"]
+- !private ["SQ", "isFirstResponder"]
+- !private ["SQ", "milliseconds"]
+- !private ["SQ", "navigationItem"]
+- !private ["SQ", "resignFirstResponder"]
+- !private ["SQ", "rx"]
+- !private ["SQ", "saveAction"]
+- !private ["SQ", "title"]
+- !private ["SQ", "viewDidLoad"]
+- ["SQ", "viewModel"]
+- !private ["SQ", "viewWillAppear"]
+- !private ["SQ", "viewWillDisappear"]
+- !private ["s25ExpressibleByFloatLiteralP", "milliseconds"]
+- !private ["s27ExpressibleByIntegerLiteralP", "milliseconds"]
+- !private ["s23ExpressibleByNilLiteralP", "becomeFirstResponder"]
+- !private ["s23ExpressibleByNilLiteralP", "cancelAction"]
+- !private ["s23ExpressibleByNilLiteralP", "initialText"]
+- !private ["s23ExpressibleByNilLiteralP", "isFirstResponder"]
+- !private ["s23ExpressibleByNilLiteralP", "resignFirstResponder"]
+- !private ["s23ExpressibleByNilLiteralP", "rx"]
+- !private ["s23ExpressibleByNilLiteralP", "saveAction"]
+- !private ["s23ExpressibleByNilLiteralP", "title"]
+- !private ["SF", "milliseconds"]
+- !private ["7RxCocoa11HasDelegateP", "becomeFirstResponder"]
+- !private ["7RxCocoa11HasDelegateP", "isFirstResponder"]
+- !private ["7RxCocoa11HasDelegateP", "resignFirstResponder"]
+- !private ["7RxCocoa11HasDelegateP", "rx"]
+- !private ["SH", "MainScheduler"]
+- ["SH", "ViewModelType"]
+- ["SH", ""]
+- ["SH", "_Default_ViewModelType"]
+- !private ["SH", "addButton"]
+- !private ["SH", "becomeFirstResponder"]
+- ["SH", "bindViewModel"]
+- !private ["SH", "cancelAction"]
+- !private ["SH", "cancelButton"]
+- !private ["SH", "contentTextView"]
+- !private ["SH", "init"]
+- !private ["SH", "initialText"]
+- !private ["SH", "isFirstResponder"]
+- !private ["SH", "milliseconds"]
+- !private ["SH", "navigationItem"]
+- !private ["SH", "resignFirstResponder"]
+- !private ["SH", "rx"]
+- !private ["SH", "saveAction"]
+- !private ["SH", "title"]
+- !private ["SH", "viewDidLoad"]
+- ["SH", "viewModel"]
+- !private ["SH", "viewWillAppear"]
+- !private ["SH", "viewWillDisappear"]
+- !private ["7RxSwift22ImmediateSchedulerTypeP", "instance"]
+- !private ["s25LosslessStringConvertibleP", "milliseconds"]
+- !private ["7RxSwift13MainSchedulerC", "instance"]
+- ["20MyMVVMRxSwiftExample13MemoComposeVCC", "Bool"]
+- !private ["20MyMVVMRxSwiftExample13MemoComposeVCC", "MainScheduler"]
+- ["20MyMVVMRxSwiftExample13MemoComposeVCC", "MemoComposeViewModel"]
+- ["20MyMVVMRxSwiftExample13MemoComposeVCC", "UIBarButtonItem"]
+- ["20MyMVVMRxSwiftExample13MemoComposeVCC", "UITextView"]
+- ["20MyMVVMRxSwiftExample13MemoComposeVCC", "ViewModelType"]
+- ["20MyMVVMRxSwiftExample13MemoComposeVCC", "_Default_ViewModelType"]
+- ["20MyMVVMRxSwiftExample13MemoComposeVCC", "addButton"]
+- ["20MyMVVMRxSwiftExample13MemoComposeVCC", "bindViewModel"]
+- ["20MyMVVMRxSwiftExample13MemoComposeVCC", "cancelButton"]
+- ["20MyMVVMRxSwiftExample13MemoComposeVCC", "contentTextView"]
+- ["20MyMVVMRxSwiftExample13MemoComposeVCC", "deinit"]
+- ["20MyMVVMRxSwiftExample13MemoComposeVCC", "init"]
+- !private ["20MyMVVMRxSwiftExample13MemoComposeVCC", "navigationItem"]
+- !private ["20MyMVVMRxSwiftExample13MemoComposeVCC", "rx"]
+- ["20MyMVVMRxSwiftExample13MemoComposeVCC", "viewDidLoad"]
+- ["20MyMVVMRxSwiftExample13MemoComposeVCC", "viewModel"]
+- ["20MyMVVMRxSwiftExample13MemoComposeVCC", "viewWillAppear"]
+- ["20MyMVVMRxSwiftExample13MemoComposeVCC", "viewWillDisappear"]
+- !private ["20MyMVVMRxSwiftExample20MemoComposeViewModelC", "cancelAction"]
+- !private ["20MyMVVMRxSwiftExample20MemoComposeViewModelC", "initialText"]
+- !private ["20MyMVVMRxSwiftExample20MemoComposeViewModelC", "saveAction"]
+- !private ["20MyMVVMRxSwiftExample20MemoComposeViewModelC", "title"]
+- !private ["So8NSCodingP", "MainScheduler"]
+- ["So8NSCodingP", "ViewModelType"]
+- ["So8NSCodingP", ""]
+- ["So8NSCodingP", "_Default_ViewModelType"]
+- !private ["So8NSCodingP", "addButton"]
+- !private ["So8NSCodingP", "becomeFirstResponder"]
+- ["So8NSCodingP", "bindViewModel"]
+- !private ["So8NSCodingP", "cancelButton"]
+- !private ["So8NSCodingP", "contentTextView"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isFirstResponder"]
+- !private ["So8NSCodingP", "navigationItem"]
+- !private ["So8NSCodingP", "resignFirstResponder"]
+- !private ["So8NSCodingP", "rx"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- ["So8NSCodingP", "viewModel"]
+- !private ["So8NSCodingP", "viewWillAppear"]
+- !private ["So8NSCodingP", "viewWillDisappear"]
+- !private ["So26NSExtensionRequestHandlingP", "MainScheduler"]
+- ["So26NSExtensionRequestHandlingP", "ViewModelType"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- ["So26NSExtensionRequestHandlingP", "_Default_ViewModelType"]
+- !private ["So26NSExtensionRequestHandlingP", "addButton"]
+- ["So26NSExtensionRequestHandlingP", "bindViewModel"]
+- !private ["So26NSExtensionRequestHandlingP", "cancelButton"]
+- !private ["So26NSExtensionRequestHandlingP", "contentTextView"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "navigationItem"]
+- !private ["So26NSExtensionRequestHandlingP", "rx"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", "viewModel"]
+- !private ["So26NSExtensionRequestHandlingP", "viewWillAppear"]
+- !private ["So26NSExtensionRequestHandlingP", "viewWillDisappear"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "MainScheduler"]
+- ["So8NSObjectC", "MemoComposeViewModel"]
+- ["So8NSObjectC", "UIBarButtonItem"]
+- ["So8NSObjectC", "UITextView"]
+- ["So8NSObjectC", "ViewModelType"]
+- ["So8NSObjectC", "_Default_ViewModelType"]
+- ["So8NSObjectC", "addButton"]
+- !private ["So8NSObjectC", "becomeFirstResponder"]
+- ["So8NSObjectC", "bindViewModel"]
+- !private ["So8NSObjectC", "cancelAction"]
+- ["So8NSObjectC", "cancelButton"]
+- ["So8NSObjectC", "contentTextView"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "initialText"]
+- !private ["So8NSObjectC", "isFirstResponder"]
+- !private ["So8NSObjectC", "navigationItem"]
+- !private ["So8NSObjectC", "resignFirstResponder"]
+- !private ["So8NSObjectC", "rx"]
+- !private ["So8NSObjectC", "saveAction"]
+- !private ["So8NSObjectC", "title"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectC", "viewModel"]
+- ["So8NSObjectC", "viewWillAppear"]
+- ["So8NSObjectC", "viewWillDisappear"]
+- !private ["So8NSObjectP", "MainScheduler"]
+- ["So8NSObjectP", "ViewModelType"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "_Default_ViewModelType"]
+- !private ["So8NSObjectP", "addButton"]
+- !private ["So8NSObjectP", "becomeFirstResponder"]
+- ["So8NSObjectP", "bindViewModel"]
+- !private ["So8NSObjectP", "cancelAction"]
+- !private ["So8NSObjectP", "cancelButton"]
+- !private ["So8NSObjectP", "contentTextView"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "initialText"]
+- !private ["So8NSObjectP", "isFirstResponder"]
+- !private ["So8NSObjectP", "navigationItem"]
+- !private ["So8NSObjectP", "resignFirstResponder"]
+- !private ["So8NSObjectP", "rx"]
+- !private ["So8NSObjectP", "saveAction"]
+- !private ["So8NSObjectP", "title"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- ["So8NSObjectP", "viewModel"]
+- !private ["So8NSObjectP", "viewWillAppear"]
+- !private ["So8NSObjectP", "viewWillDisappear"]
+- !private ["Sj", "milliseconds"]
+- !private ["7RxSwift10ObservableC", "bind"]
+- !private ["7RxSwift10ObservableC", "withLatestFrom"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "bind"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "drive"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "orEmpty"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "throttle"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "withLatestFrom"]
+- !private ["7RxSwift14ObservableTypeP", "bind"]
+- !private ["7RxSwift14ObservableTypeP", "orEmpty"]
+- !private ["7RxSwift14ObservableTypeP", "throttle"]
+- !private ["7RxSwift14ObservableTypeP", "withLatestFrom"]
+- !private ["7RxSwift12ObserverTypeP", "orEmpty"]
+- !private ["Sq", "becomeFirstResponder"]
+- !private ["Sq", "cancelAction"]
+- !private ["Sq", "initialText"]
+- !private ["Sq", "isFirstResponder"]
+- !private ["Sq", "resignFirstResponder"]
+- !private ["Sq", "rx"]
+- !private ["Sq", "saveAction"]
+- !private ["Sq", "title"]
+- !private ["7RxSwift8ReactiveV", "action"]
+- !private ["7RxSwift8ReactiveV", "disposeBag"]
+- !private ["7RxSwift8ReactiveV", "tap"]
+- !private ["7RxSwift8ReactiveV", "text"]
+- !private ["7RxSwift8ReactiveV", "title"]
+- !private ["7RxSwift18ReactiveCompatibleP", "MainScheduler"]
+- ["7RxSwift18ReactiveCompatibleP", "ViewModelType"]
+- ["7RxSwift18ReactiveCompatibleP", ""]
+- ["7RxSwift18ReactiveCompatibleP", "_Default_ViewModelType"]
+- !private ["7RxSwift18ReactiveCompatibleP", "addButton"]
+- !private ["7RxSwift18ReactiveCompatibleP", "becomeFirstResponder"]
+- ["7RxSwift18ReactiveCompatibleP", "bindViewModel"]
+- !private ["7RxSwift18ReactiveCompatibleP", "cancelAction"]
+- !private ["7RxSwift18ReactiveCompatibleP", "cancelButton"]
+- !private ["7RxSwift18ReactiveCompatibleP", "contentTextView"]
+- !private ["7RxSwift18ReactiveCompatibleP", "init"]
+- !private ["7RxSwift18ReactiveCompatibleP", "initialText"]
+- !private ["7RxSwift18ReactiveCompatibleP", "isFirstResponder"]
+- !private ["7RxSwift18ReactiveCompatibleP", "navigationItem"]
+- !private ["7RxSwift18ReactiveCompatibleP", "resignFirstResponder"]
+- !private ["7RxSwift18ReactiveCompatibleP", "rx"]
+- !private ["7RxSwift18ReactiveCompatibleP", "saveAction"]
+- !private ["7RxSwift18ReactiveCompatibleP", "title"]
+- !private ["7RxSwift18ReactiveCompatibleP", "viewDidLoad"]
+- ["7RxSwift18ReactiveCompatibleP", "viewModel"]
+- !private ["7RxSwift18ReactiveCompatibleP", "viewWillAppear"]
+- !private ["7RxSwift18ReactiveCompatibleP", "viewWillDisappear"]
+- !private ["s10SIMDScalarP", "milliseconds"]
+- !private ["7RxSwift13SchedulerTypeP", "instance"]
+- !private ["7RxSwift28SerialDispatchQueueSchedulerC", "instance"]
+- !private ["7RxCocoa14SharedSequenceV", "drive"]
+- !private ["7RxCocoa29SharedSequenceConvertibleTypeP", "drive"]
+- !private ["s13SignedNumericP", "milliseconds"]
+- !private ["Sx", "milliseconds"]
+- !private ["s20TextOutputStreamableP", "milliseconds"]
+- !private ["So29UIAccessibilityIdentificationP", "becomeFirstResponder"]
+- !private ["So29UIAccessibilityIdentificationP", "isFirstResponder"]
+- !private ["So29UIAccessibilityIdentificationP", "resignFirstResponder"]
+- !private ["So29UIAccessibilityIdentificationP", "rx"]
+- !private ["So12UIAppearanceP", "becomeFirstResponder"]
+- !private ["So12UIAppearanceP", "isFirstResponder"]
+- !private ["So12UIAppearanceP", "resignFirstResponder"]
+- !private ["So12UIAppearanceP", "rx"]
+- !private ["So21UIAppearanceContainerP", "MainScheduler"]
+- ["So21UIAppearanceContainerP", "ViewModelType"]
+- ["So21UIAppearanceContainerP", ""]
+- ["So21UIAppearanceContainerP", "_Default_ViewModelType"]
+- !private ["So21UIAppearanceContainerP", "addButton"]
+- !private ["So21UIAppearanceContainerP", "becomeFirstResponder"]
+- ["So21UIAppearanceContainerP", "bindViewModel"]
+- !private ["So21UIAppearanceContainerP", "cancelButton"]
+- !private ["So21UIAppearanceContainerP", "contentTextView"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "isFirstResponder"]
+- !private ["So21UIAppearanceContainerP", "navigationItem"]
+- !private ["So21UIAppearanceContainerP", "resignFirstResponder"]
+- !private ["So21UIAppearanceContainerP", "rx"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So21UIAppearanceContainerP", "viewModel"]
+- !private ["So21UIAppearanceContainerP", "viewWillAppear"]
+- !private ["So21UIAppearanceContainerP", "viewWillDisappear"]
+- !private ["So15UIBarButtonItemC", "rx"]
+- !private ["So9UIBarItemC", "rx"]
+- !private ["So18UIContentContainerP", "MainScheduler"]
+- ["So18UIContentContainerP", "ViewModelType"]
+- ["So18UIContentContainerP", ""]
+- ["So18UIContentContainerP", "_Default_ViewModelType"]
+- !private ["So18UIContentContainerP", "addButton"]
+- ["So18UIContentContainerP", "bindViewModel"]
+- !private ["So18UIContentContainerP", "cancelButton"]
+- !private ["So18UIContentContainerP", "contentTextView"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "navigationItem"]
+- !private ["So18UIContentContainerP", "rx"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", "viewModel"]
+- !private ["So18UIContentContainerP", "viewWillAppear"]
+- !private ["So18UIContentContainerP", "viewWillDisappear"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "becomeFirstResponder"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "isFirstResponder"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "resignFirstResponder"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "rx"]
+- !private ["So17UICoordinateSpaceP", "becomeFirstResponder"]
+- !private ["So17UICoordinateSpaceP", "isFirstResponder"]
+- !private ["So17UICoordinateSpaceP", "resignFirstResponder"]
+- !private ["So17UICoordinateSpaceP", "rx"]
+- !private ["So13UIDynamicItemP", "becomeFirstResponder"]
+- !private ["So13UIDynamicItemP", "isFirstResponder"]
+- !private ["So13UIDynamicItemP", "resignFirstResponder"]
+- !private ["So13UIDynamicItemP", "rx"]
+- !private ["So18UIFocusEnvironmentP", "MainScheduler"]
+- ["So18UIFocusEnvironmentP", "ViewModelType"]
+- ["So18UIFocusEnvironmentP", ""]
+- ["So18UIFocusEnvironmentP", "_Default_ViewModelType"]
+- !private ["So18UIFocusEnvironmentP", "addButton"]
+- !private ["So18UIFocusEnvironmentP", "becomeFirstResponder"]
+- ["So18UIFocusEnvironmentP", "bindViewModel"]
+- !private ["So18UIFocusEnvironmentP", "cancelButton"]
+- !private ["So18UIFocusEnvironmentP", "contentTextView"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "isFirstResponder"]
+- !private ["So18UIFocusEnvironmentP", "navigationItem"]
+- !private ["So18UIFocusEnvironmentP", "resignFirstResponder"]
+- !private ["So18UIFocusEnvironmentP", "rx"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- ["So18UIFocusEnvironmentP", "viewModel"]
+- !private ["So18UIFocusEnvironmentP", "viewWillAppear"]
+- !private ["So18UIFocusEnvironmentP", "viewWillDisappear"]
+- !private ["So11UIFocusItemP", "becomeFirstResponder"]
+- !private ["So11UIFocusItemP", "isFirstResponder"]
+- !private ["So11UIFocusItemP", "resignFirstResponder"]
+- !private ["So11UIFocusItemP", "rx"]
+- !private ["So20UIFocusItemContainerP", "becomeFirstResponder"]
+- !private ["So20UIFocusItemContainerP", "isFirstResponder"]
+- !private ["So20UIFocusItemContainerP", "resignFirstResponder"]
+- !private ["So20UIFocusItemContainerP", "rx"]
+- !private ["So30UIFocusItemScrollableContainerP", "becomeFirstResponder"]
+- !private ["So30UIFocusItemScrollableContainerP", "isFirstResponder"]
+- !private ["So30UIFocusItemScrollableContainerP", "resignFirstResponder"]
+- !private ["So30UIFocusItemScrollableContainerP", "rx"]
+- !private ["So10UIKeyInputP", "becomeFirstResponder"]
+- !private ["So10UIKeyInputP", "isFirstResponder"]
+- !private ["So10UIKeyInputP", "resignFirstResponder"]
+- !private ["So10UIKeyInputP", "rx"]
+- !private ["So24UILargeContentViewerItemP", "becomeFirstResponder"]
+- !private ["So24UILargeContentViewerItemP", "isFirstResponder"]
+- !private ["So24UILargeContentViewerItemP", "resignFirstResponder"]
+- !private ["So24UILargeContentViewerItemP", "rx"]
+- !private ["So16UINavigationItemC", "rx"]
+- !private ["So30UIPasteConfigurationSupportingP", "MainScheduler"]
+- ["So30UIPasteConfigurationSupportingP", "ViewModelType"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So30UIPasteConfigurationSupportingP", "_Default_ViewModelType"]
+- !private ["So30UIPasteConfigurationSupportingP", "addButton"]
+- !private ["So30UIPasteConfigurationSupportingP", "becomeFirstResponder"]
+- ["So30UIPasteConfigurationSupportingP", "bindViewModel"]
+- !private ["So30UIPasteConfigurationSupportingP", "cancelButton"]
+- !private ["So30UIPasteConfigurationSupportingP", "contentTextView"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "isFirstResponder"]
+- !private ["So30UIPasteConfigurationSupportingP", "navigationItem"]
+- !private ["So30UIPasteConfigurationSupportingP", "resignFirstResponder"]
+- !private ["So30UIPasteConfigurationSupportingP", "rx"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So30UIPasteConfigurationSupportingP", "viewModel"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewWillAppear"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewWillDisappear"]
+- ["So11UIResponderC", "Bool"]
+- !private ["So11UIResponderC", "MainScheduler"]
+- ["So11UIResponderC", "MemoComposeViewModel"]
+- ["So11UIResponderC", "UIBarButtonItem"]
+- ["So11UIResponderC", "UITextView"]
+- ["So11UIResponderC", "ViewModelType"]
+- ["So11UIResponderC", "_Default_ViewModelType"]
+- ["So11UIResponderC", "addButton"]
+- !private ["So11UIResponderC", "becomeFirstResponder"]
+- ["So11UIResponderC", "bindViewModel"]
+- ["So11UIResponderC", "cancelButton"]
+- ["So11UIResponderC", "contentTextView"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "isFirstResponder"]
+- !private ["So11UIResponderC", "navigationItem"]
+- !private ["So11UIResponderC", "resignFirstResponder"]
+- !private ["So11UIResponderC", "rx"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So11UIResponderC", "viewModel"]
+- ["So11UIResponderC", "viewWillAppear"]
+- ["So11UIResponderC", "viewWillDisappear"]
+- !private ["So30UIResponderStandardEditActionsP", "MainScheduler"]
+- ["So30UIResponderStandardEditActionsP", "ViewModelType"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- ["So30UIResponderStandardEditActionsP", "_Default_ViewModelType"]
+- !private ["So30UIResponderStandardEditActionsP", "addButton"]
+- !private ["So30UIResponderStandardEditActionsP", "becomeFirstResponder"]
+- ["So30UIResponderStandardEditActionsP", "bindViewModel"]
+- !private ["So30UIResponderStandardEditActionsP", "cancelButton"]
+- !private ["So30UIResponderStandardEditActionsP", "contentTextView"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "isFirstResponder"]
+- !private ["So30UIResponderStandardEditActionsP", "navigationItem"]
+- !private ["So30UIResponderStandardEditActionsP", "resignFirstResponder"]
+- !private ["So30UIResponderStandardEditActionsP", "rx"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", "viewModel"]
+- !private ["So30UIResponderStandardEditActionsP", "viewWillAppear"]
+- !private ["So30UIResponderStandardEditActionsP", "viewWillDisappear"]
+- !private ["So12UIScrollViewC", "becomeFirstResponder"]
+- !private ["So12UIScrollViewC", "isFirstResponder"]
+- !private ["So12UIScrollViewC", "resignFirstResponder"]
+- !private ["So12UIScrollViewC", "rx"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "rx"]
+- !private ["So16UIStateRestoringP", "MainScheduler"]
+- ["So16UIStateRestoringP", "ViewModelType"]
+- ["So16UIStateRestoringP", ""]
+- ["So16UIStateRestoringP", "_Default_ViewModelType"]
+- !private ["So16UIStateRestoringP", "addButton"]
+- ["So16UIStateRestoringP", "bindViewModel"]
+- !private ["So16UIStateRestoringP", "cancelButton"]
+- !private ["So16UIStateRestoringP", "contentTextView"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "navigationItem"]
+- !private ["So16UIStateRestoringP", "rx"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So16UIStateRestoringP", "viewModel"]
+- !private ["So16UIStateRestoringP", "viewWillAppear"]
+- !private ["So16UIStateRestoringP", "viewWillDisappear"]
+- !private ["So15UITextDraggableP", "becomeFirstResponder"]
+- !private ["So15UITextDraggableP", "isFirstResponder"]
+- !private ["So15UITextDraggableP", "resignFirstResponder"]
+- !private ["So15UITextDraggableP", "rx"]
+- !private ["So15UITextDroppableP", "becomeFirstResponder"]
+- !private ["So15UITextDroppableP", "isFirstResponder"]
+- !private ["So15UITextDroppableP", "resignFirstResponder"]
+- !private ["So15UITextDroppableP", "rx"]
+- !private ["So11UITextInputP", "becomeFirstResponder"]
+- !private ["So11UITextInputP", "isFirstResponder"]
+- !private ["So11UITextInputP", "resignFirstResponder"]
+- !private ["So11UITextInputP", "rx"]
+- !private ["So17UITextInputTraitsP", "becomeFirstResponder"]
+- !private ["So17UITextInputTraitsP", "isFirstResponder"]
+- !private ["So17UITextInputTraitsP", "resignFirstResponder"]
+- !private ["So17UITextInputTraitsP", "rx"]
+- !private ["So34UITextPasteConfigurationSupportingP", "becomeFirstResponder"]
+- !private ["So34UITextPasteConfigurationSupportingP", "isFirstResponder"]
+- !private ["So34UITextPasteConfigurationSupportingP", "resignFirstResponder"]
+- !private ["So34UITextPasteConfigurationSupportingP", "rx"]
+- !private ["So10UITextViewC", "becomeFirstResponder"]
+- !private ["So10UITextViewC", "isFirstResponder"]
+- !private ["So10UITextViewC", "resignFirstResponder"]
+- !private ["So10UITextViewC", "rx"]
+- !private ["So18UITraitEnvironmentP", "MainScheduler"]
+- ["So18UITraitEnvironmentP", "ViewModelType"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So18UITraitEnvironmentP", "_Default_ViewModelType"]
+- !private ["So18UITraitEnvironmentP", "addButton"]
+- !private ["So18UITraitEnvironmentP", "becomeFirstResponder"]
+- ["So18UITraitEnvironmentP", "bindViewModel"]
+- !private ["So18UITraitEnvironmentP", "cancelButton"]
+- !private ["So18UITraitEnvironmentP", "contentTextView"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "isFirstResponder"]
+- !private ["So18UITraitEnvironmentP", "navigationItem"]
+- !private ["So18UITraitEnvironmentP", "resignFirstResponder"]
+- !private ["So18UITraitEnvironmentP", "rx"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", "viewModel"]
+- !private ["So18UITraitEnvironmentP", "viewWillAppear"]
+- !private ["So18UITraitEnvironmentP", "viewWillDisappear"]
+- !private ["So23UIUserActivityRestoringP", "MainScheduler"]
+- ["So23UIUserActivityRestoringP", "ViewModelType"]
+- ["So23UIUserActivityRestoringP", ""]
+- ["So23UIUserActivityRestoringP", "_Default_ViewModelType"]
+- !private ["So23UIUserActivityRestoringP", "addButton"]
+- !private ["So23UIUserActivityRestoringP", "becomeFirstResponder"]
+- ["So23UIUserActivityRestoringP", "bindViewModel"]
+- !private ["So23UIUserActivityRestoringP", "cancelButton"]
+- !private ["So23UIUserActivityRestoringP", "contentTextView"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "isFirstResponder"]
+- !private ["So23UIUserActivityRestoringP", "navigationItem"]
+- !private ["So23UIUserActivityRestoringP", "resignFirstResponder"]
+- !private ["So23UIUserActivityRestoringP", "rx"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- ["So23UIUserActivityRestoringP", "viewModel"]
+- !private ["So23UIUserActivityRestoringP", "viewWillAppear"]
+- !private ["So23UIUserActivityRestoringP", "viewWillDisappear"]
+- !private ["So6UIViewC", "becomeFirstResponder"]
+- !private ["So6UIViewC", "isFirstResponder"]
+- !private ["So6UIViewC", "resignFirstResponder"]
+- !private ["So6UIViewC", "rx"]
+- ["So16UIViewControllerC", "Bool"]
+- !private ["So16UIViewControllerC", "MainScheduler"]
+- ["So16UIViewControllerC", "MemoComposeViewModel"]
+- ["So16UIViewControllerC", "UIBarButtonItem"]
+- ["So16UIViewControllerC", "UITextView"]
+- ["So16UIViewControllerC", "ViewModelType"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "_Default_ViewModelType"]
+- ["So16UIViewControllerC", "addButton"]
+- ["So16UIViewControllerC", "bindViewModel"]
+- ["So16UIViewControllerC", "cancelButton"]
+- ["So16UIViewControllerC", "contentTextView"]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "navigationItem"]
+- !private ["So16UIViewControllerC", "rx"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", "viewModel"]
+- ["So16UIViewControllerC", "viewWillAppear"]
+- ["So16UIViewControllerC", "viewWillDisappear"]
+- !private ["20MyMVVMRxSwiftExample20ViewModelBindbleTypeP", "MainScheduler"]
+- ["20MyMVVMRxSwiftExample20ViewModelBindbleTypeP", "ViewModelType"]
+- ["20MyMVVMRxSwiftExample20ViewModelBindbleTypeP", ""]
+- ["20MyMVVMRxSwiftExample20ViewModelBindbleTypeP", "_Default_ViewModelType"]
+- !private ["20MyMVVMRxSwiftExample20ViewModelBindbleTypeP", "addButton"]
+- ["20MyMVVMRxSwiftExample20ViewModelBindbleTypeP", "bindViewModel"]
+- !private ["20MyMVVMRxSwiftExample20ViewModelBindbleTypeP", "cancelButton"]
+- !private ["20MyMVVMRxSwiftExample20ViewModelBindbleTypeP", "contentTextView"]
+- !private ["20MyMVVMRxSwiftExample20ViewModelBindbleTypeP", "navigationItem"]
+- !private ["20MyMVVMRxSwiftExample20ViewModelBindbleTypeP", "rx"]
+- ["20MyMVVMRxSwiftExample20ViewModelBindbleTypeP", "viewModel"]
+- !private ["s15_CVarArgAlignedP", "milliseconds"]
+- !private ["s22_CVarArgPassedAsDoubleP", "milliseconds"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "milliseconds"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "milliseconds"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "milliseconds"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "milliseconds"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MainScheduler"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "ViewModelType"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- ["10Foundation27_KeyValueCodingAndObservingP", "_Default_ViewModelType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addButton"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "becomeFirstResponder"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "bindViewModel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cancelAction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cancelButton"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contentTextView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "initialText"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isFirstResponder"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "navigationItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resignFirstResponder"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rx"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "saveAction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "title"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "viewModel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewWillAppear"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewWillDisappear"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "MainScheduler"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ViewModelType"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "_Default_ViewModelType"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addButton"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "becomeFirstResponder"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bindViewModel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cancelAction"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cancelButton"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "contentTextView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "initialText"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isFirstResponder"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "navigationItem"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "resignFirstResponder"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "rx"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "saveAction"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "title"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewModel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewWillAppear"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewWillDisappear"]
+- !private ["s21_ObjectiveCBridgeableP", "becomeFirstResponder"]
+- !private ["s21_ObjectiveCBridgeableP", "cancelAction"]
+- !private ["s21_ObjectiveCBridgeableP", "initialText"]
+- !private ["s21_ObjectiveCBridgeableP", "isFirstResponder"]
+- !private ["s21_ObjectiveCBridgeableP", "milliseconds"]
+- !private ["s21_ObjectiveCBridgeableP", "resignFirstResponder"]
+- !private ["s21_ObjectiveCBridgeableP", "rx"]
+- !private ["s21_ObjectiveCBridgeableP", "saveAction"]
+- !private ["s21_ObjectiveCBridgeableP", "title"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "becomeFirstResponder"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "isFirstResponder"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "resignFirstResponder"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "rx"]
+depends-nominal:
+- !private "6ActionAAC"
+- !private "s18AdditiveArithmeticP"
+- !private "SB"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "20MyMVVMRxSwiftExample15CommonViewModelC"
+- !private "SL"
+- !private "7RxCocoa12ControlEventV"
+- !private "7RxCocoa16ControlEventTypeP"
+- !private "7RxCocoa15ControlPropertyV"
+- !private "7RxCocoa19ControlPropertyTypeP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "8Dispatch0A12TimeIntervalO"
+- !private "7RxSwift10DisposableP"
+- !private "Sd"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "SF"
+- !private "7RxCocoa11HasDelegateP"
+- "SH"
+- !private "7RxSwift22ImmediateSchedulerTypeP"
+- !private "s25LosslessStringConvertibleP"
+- !private "7RxSwift13MainSchedulerC"
+- "20MyMVVMRxSwiftExample13MemoComposeVCC"
+- !private "20MyMVVMRxSwiftExample20MemoComposeViewModelC"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sj"
+- !private "7RxSwift10ObservableC"
+- !private "7RxSwift25ObservableConvertibleTypeP"
+- !private "7RxSwift14ObservableTypeP"
+- !private "7RxSwift12ObserverTypeP"
+- !private "Sq"
+- !private "7RxSwift8ReactiveV"
+- "7RxSwift18ReactiveCompatibleP"
+- !private "s10SIMDScalarP"
+- !private "7RxSwift13SchedulerTypeP"
+- !private "7RxSwift28SerialDispatchQueueSchedulerC"
+- !private "7RxCocoa14SharedSequenceV"
+- !private "7RxCocoa29SharedSequenceConvertibleTypeP"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So15UIBarButtonItemC"
+- !private "So9UIBarItemC"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So30UIFocusItemScrollableContainerP"
+- !private "So10UIKeyInputP"
+- !private "So24UILargeContentViewerItemP"
+- !private "So16UINavigationItemC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So12UIScrollViewC"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So16UIStateRestoringP"
+- !private "So15UITextDraggableP"
+- !private "So15UITextDroppableP"
+- !private "So11UITextInputP"
+- !private "So17UITextInputTraitsP"
+- !private "So34UITextPasteConfigurationSupportingP"
+- !private "So10UITextViewC"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- "20MyMVVMRxSwiftExample20ViewModelBindbleTypeP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreData.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Modules/RxCocoa.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/Action/Action.framework/Modules/Action.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/NSObject+Rx/NSObject_Rx.framework/Modules/NSObject_Rx.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxRelay/RxRelay.framework/Modules/RxRelay.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RX.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-umbrella.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/Action/Action.framework/Headers/Action-umbrella.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/NSObject+Rx/NSObject_Rx.framework/Headers/NSObject+Rx-umbrella.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxRelay/RxRelay.framework/Headers/RxRelay-umbrella.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXObjCRuntime.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoaRuntime.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXKVOObserver.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-Swift.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/Action/Action.framework/Headers/Action-Swift.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/NSObject+Rx/NSObject_Rx.framework/Headers/NSObject_Rx-Swift.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxRelay/RxRelay.framework/Headers/RxRelay-Swift.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXDelegateProxy.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Modules/module.modulemap"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/Action/Action.framework/Modules/module.modulemap"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/module.modulemap"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/NSObject+Rx/NSObject_Rx.framework/Modules/module.modulemap"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxRelay/RxRelay.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "e91c6ec91bd4509fc82d1174730b16a9"

@@ -1,0 +1,10 @@
+framework module Action {
+  umbrella header "Action-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module Action.__Swift {
+    exclude header "Action-Swift.h"
+}

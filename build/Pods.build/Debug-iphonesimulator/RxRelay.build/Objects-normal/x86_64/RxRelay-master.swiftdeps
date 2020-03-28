@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "4e70a40ced9c4241bd425b72d112753d"
+build_time: [1585426830, 765232000]
+inputs:
+  "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/Pods/RxRelay/RxRelay/BehaviorRelay.swift": [1585398729, 572872855]
+  "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/Pods/RxRelay/RxRelay/Observable+Bind.swift": [1585398729, 572072854]
+  "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/Pods/RxRelay/RxRelay/PublishRelay.swift": [1585398729, 571623947]
+  "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/Pods/RxRelay/RxRelay/Utils.swift": [1585398729, 572469499]

@@ -1,0 +1,273 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MemoListViewModel"
+provides-nominal:
+- "20MyMVVMRxSwiftExample17MemoListViewModelC"
+provides-member:
+- ["20MyMVVMRxSwiftExample17MemoListViewModelC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Action"
+- "BooleanLiteralType"
+- "CocoaAction"
+- "CommonViewModel"
+- "Memo"
+- !private "MemoComposeViewModel"
+- "MemoListViewModel"
+- "Observable"
+- !private "Scene"
+- "String"
+- !private "StringLiteralType"
+- "Void"
+depends-member:
+- !private ["6ActionAAC", "init"]
+- !private ["s7CVarArgP", "Action"]
+- !private ["s7CVarArgP", "CocoaAction"]
+- !private ["s7CVarArgP", "MemoComposeViewModel"]
+- !private ["s7CVarArgP", "Scene"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "performCancel"]
+- !private ["s7CVarArgP", "performUpdate"]
+- !private ["s7CVarArgP", "sceneCoordinator"]
+- !private ["s7CVarArgP", "storage"]
+- ["20MyMVVMRxSwiftExample15CommonViewModelC", "Action"]
+- ["20MyMVVMRxSwiftExample15CommonViewModelC", "CocoaAction"]
+- ["20MyMVVMRxSwiftExample15CommonViewModelC", "Memo"]
+- !private ["20MyMVVMRxSwiftExample15CommonViewModelC", "MemoComposeViewModel"]
+- ["20MyMVVMRxSwiftExample15CommonViewModelC", "Observable"]
+- !private ["20MyMVVMRxSwiftExample15CommonViewModelC", "Scene"]
+- ["20MyMVVMRxSwiftExample15CommonViewModelC", "String"]
+- ["20MyMVVMRxSwiftExample15CommonViewModelC", "Void"]
+- ["20MyMVVMRxSwiftExample15CommonViewModelC", ""]
+- ["20MyMVVMRxSwiftExample15CommonViewModelC", "init"]
+- ["20MyMVVMRxSwiftExample15CommonViewModelC", "makeCreateAction"]
+- ["20MyMVVMRxSwiftExample15CommonViewModelC", "memoList"]
+- ["20MyMVVMRxSwiftExample15CommonViewModelC", "performCancel"]
+- ["20MyMVVMRxSwiftExample15CommonViewModelC", "performUpdate"]
+- !private ["20MyMVVMRxSwiftExample15CommonViewModelC", "sceneCoordinator"]
+- !private ["20MyMVVMRxSwiftExample15CommonViewModelC", "storage"]
+- !private ["s28CustomDebugStringConvertibleP", "Action"]
+- !private ["s28CustomDebugStringConvertibleP", "CocoaAction"]
+- !private ["s28CustomDebugStringConvertibleP", "MemoComposeViewModel"]
+- !private ["s28CustomDebugStringConvertibleP", "Scene"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "performCancel"]
+- !private ["s28CustomDebugStringConvertibleP", "performUpdate"]
+- !private ["s28CustomDebugStringConvertibleP", "sceneCoordinator"]
+- !private ["s28CustomDebugStringConvertibleP", "storage"]
+- !private ["s23CustomStringConvertibleP", "Action"]
+- !private ["s23CustomStringConvertibleP", "CocoaAction"]
+- !private ["s23CustomStringConvertibleP", "MemoComposeViewModel"]
+- !private ["s23CustomStringConvertibleP", "Scene"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "performCancel"]
+- !private ["s23CustomStringConvertibleP", "performUpdate"]
+- !private ["s23CustomStringConvertibleP", "sceneCoordinator"]
+- !private ["s23CustomStringConvertibleP", "storage"]
+- !private ["SQ", "Action"]
+- !private ["SQ", "CocoaAction"]
+- !private ["SQ", "MemoComposeViewModel"]
+- !private ["SQ", "Scene"]
+- ["SQ", ""]
+- !private ["SQ", "init"]
+- !private ["SQ", "modal"]
+- !private ["SQ", "performCancel"]
+- !private ["SQ", "performUpdate"]
+- !private ["SQ", "sceneCoordinator"]
+- !private ["SQ", "storage"]
+- !private ["SH", "Action"]
+- !private ["SH", "CocoaAction"]
+- !private ["SH", "MemoComposeViewModel"]
+- !private ["SH", "Scene"]
+- ["SH", ""]
+- !private ["SH", "init"]
+- !private ["SH", "modal"]
+- !private ["SH", "performCancel"]
+- !private ["SH", "performUpdate"]
+- !private ["SH", "sceneCoordinator"]
+- !private ["SH", "storage"]
+- !private ["20MyMVVMRxSwiftExample20MemoComposeViewModelC", "init"]
+- ["20MyMVVMRxSwiftExample17MemoListViewModelC", "Action"]
+- ["20MyMVVMRxSwiftExample17MemoListViewModelC", "CocoaAction"]
+- ["20MyMVVMRxSwiftExample17MemoListViewModelC", "Memo"]
+- !private ["20MyMVVMRxSwiftExample17MemoListViewModelC", "MemoComposeViewModel"]
+- ["20MyMVVMRxSwiftExample17MemoListViewModelC", "Observable"]
+- !private ["20MyMVVMRxSwiftExample17MemoListViewModelC", "Scene"]
+- ["20MyMVVMRxSwiftExample17MemoListViewModelC", "String"]
+- ["20MyMVVMRxSwiftExample17MemoListViewModelC", "Void"]
+- ["20MyMVVMRxSwiftExample17MemoListViewModelC", "deinit"]
+- ["20MyMVVMRxSwiftExample17MemoListViewModelC", "init"]
+- ["20MyMVVMRxSwiftExample17MemoListViewModelC", "makeCreateAction"]
+- ["20MyMVVMRxSwiftExample17MemoListViewModelC", "memoList"]
+- ["20MyMVVMRxSwiftExample17MemoListViewModelC", "performCancel"]
+- ["20MyMVVMRxSwiftExample17MemoListViewModelC", "performUpdate"]
+- !private ["20MyMVVMRxSwiftExample17MemoListViewModelC", "sceneCoordinator"]
+- !private ["20MyMVVMRxSwiftExample17MemoListViewModelC", "storage"]
+- !private ["20MyMVVMRxSwiftExample15MemostorageTypeP", "createMemo"]
+- !private ["20MyMVVMRxSwiftExample15MemostorageTypeP", "delete"]
+- !private ["20MyMVVMRxSwiftExample15MemostorageTypeP", "memoList"]
+- !private ["20MyMVVMRxSwiftExample15MemostorageTypeP", "update"]
+- ["So8NSObjectC", "Action"]
+- ["So8NSObjectC", "CocoaAction"]
+- ["So8NSObjectC", "Memo"]
+- !private ["So8NSObjectC", "MemoComposeViewModel"]
+- ["So8NSObjectC", "Observable"]
+- !private ["So8NSObjectC", "Scene"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "Void"]
+- ["So8NSObjectC", "makeCreateAction"]
+- ["So8NSObjectC", "memoList"]
+- ["So8NSObjectC", "performCancel"]
+- ["So8NSObjectC", "performUpdate"]
+- !private ["So8NSObjectC", "sceneCoordinator"]
+- !private ["So8NSObjectC", "storage"]
+- !private ["So8NSObjectP", "Action"]
+- !private ["So8NSObjectP", "CocoaAction"]
+- !private ["So8NSObjectP", "MemoComposeViewModel"]
+- !private ["So8NSObjectP", "Scene"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "performCancel"]
+- !private ["So8NSObjectP", "performUpdate"]
+- !private ["So8NSObjectP", "sceneCoordinator"]
+- !private ["So8NSObjectP", "storage"]
+- !private ["7RxSwift10ObservableC", "flatMap"]
+- !private ["7RxSwift10ObservableC", "map"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "asObservable"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "flatMap"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "map"]
+- !private ["7RxSwift14ObservableTypeP", "flatMap"]
+- !private ["7RxSwift14ObservableTypeP", "map"]
+- !private ["7RxSwift17PrimitiveSequenceV", "asObservable"]
+- !private ["7RxSwift21PrimitiveSequenceTypeP", "asObservable"]
+- !private ["7RxSwift18ReactiveCompatibleP", "Action"]
+- !private ["7RxSwift18ReactiveCompatibleP", "CocoaAction"]
+- !private ["7RxSwift18ReactiveCompatibleP", "MemoComposeViewModel"]
+- !private ["7RxSwift18ReactiveCompatibleP", "Scene"]
+- ["7RxSwift18ReactiveCompatibleP", ""]
+- !private ["7RxSwift18ReactiveCompatibleP", "init"]
+- !private ["7RxSwift18ReactiveCompatibleP", "performCancel"]
+- !private ["7RxSwift18ReactiveCompatibleP", "performUpdate"]
+- !private ["7RxSwift18ReactiveCompatibleP", "sceneCoordinator"]
+- !private ["7RxSwift18ReactiveCompatibleP", "storage"]
+- !private ["20MyMVVMRxSwiftExample5SceneO", "compose"]
+- !private ["20MyMVVMRxSwiftExample20SceneCoordinatorTypeP", "transition"]
+- !private ["20MyMVVMRxSwiftExample15TransitionStyleO", "modal"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Action"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CocoaAction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MemoComposeViewModel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Scene"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "performCancel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "performUpdate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sceneCoordinator"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "storage"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Action"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CocoaAction"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "MemoComposeViewModel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Scene"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "performCancel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "performUpdate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sceneCoordinator"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "storage"]
+depends-nominal:
+- !private "6ActionAAC"
+- "s7CVarArgP"
+- "20MyMVVMRxSwiftExample15CommonViewModelC"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "SH"
+- !private "20MyMVVMRxSwiftExample20MemoComposeViewModelC"
+- "20MyMVVMRxSwiftExample17MemoListViewModelC"
+- !private "20MyMVVMRxSwiftExample15MemostorageTypeP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "7RxSwift10ObservableC"
+- !private "7RxSwift25ObservableConvertibleTypeP"
+- !private "7RxSwift14ObservableTypeP"
+- !private "7RxSwift17PrimitiveSequenceV"
+- !private "7RxSwift21PrimitiveSequenceTypeP"
+- "7RxSwift18ReactiveCompatibleP"
+- !private "20MyMVVMRxSwiftExample5SceneO"
+- !private "20MyMVVMRxSwiftExample20SceneCoordinatorTypeP"
+- !private "20MyMVVMRxSwiftExample15TransitionStyleO"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreData.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Modules/RxCocoa.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/Action/Action.framework/Modules/Action.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/NSObject+Rx/NSObject_Rx.framework/Modules/NSObject_Rx.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxRelay/RxRelay.framework/Modules/RxRelay.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RX.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-umbrella.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/Action/Action.framework/Headers/Action-umbrella.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/NSObject+Rx/NSObject_Rx.framework/Headers/NSObject+Rx-umbrella.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxRelay/RxRelay.framework/Headers/RxRelay-umbrella.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXObjCRuntime.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoaRuntime.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXKVOObserver.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-Swift.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/Action/Action.framework/Headers/Action-Swift.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/NSObject+Rx/NSObject_Rx.framework/Headers/NSObject_Rx-Swift.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxRelay/RxRelay.framework/Headers/RxRelay-Swift.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXDelegateProxy.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Modules/module.modulemap"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/Action/Action.framework/Modules/module.modulemap"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/module.modulemap"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/NSObject+Rx/NSObject_Rx.framework/Modules/module.modulemap"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxRelay/RxRelay.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "efcb560e0ad6b32a94fce451e688aadf"

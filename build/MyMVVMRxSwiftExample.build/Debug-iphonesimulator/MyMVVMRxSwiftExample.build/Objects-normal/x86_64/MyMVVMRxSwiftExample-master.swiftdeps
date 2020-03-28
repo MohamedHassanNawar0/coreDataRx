@@ -1,0 +1,21 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "fa27fe8db73f9b07c14e0ce74923ce48"
+build_time: [1585431442, 676544000]
+inputs:
+  "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/MyMVVMRxSwiftExample/Service/MemoStorage/MemoryStorage.swift": [1585401625, 123071707]
+  "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/MyMVVMRxSwiftExample/ViewModel/MemoComposeViewModel.swift": [1585416596, 793791697]
+  "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/MyMVVMRxSwiftExample/Scene/SceneCoordinator.swift": [1585431442, 538512215]
+  "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/MyMVVMRxSwiftExample/Scene/Scene.swift": [1585431327, 545645992]
+  "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/MyMVVMRxSwiftExample/ViewController/MemoListVC.swift": [1585425290, 660329879]
+  "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/MyMVVMRxSwiftExample/ViewController/MemoDetailsVC.swift": [1585431315, 680812796]
+  "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/MyMVVMRxSwiftExample/Service/MemoStorgeType.swift": [1585399591, 107107888]
+  "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/MyMVVMRxSwiftExample/AppDelegate.swift": [1585429011, 199697813]
+  "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/MyMVVMRxSwiftExample/ViewModel/MemoListViewModel.swift": [1585428381, 888413025]
+  "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/MyMVVMRxSwiftExample/Scene/SceneCoordinatorType.swift": [1585406481, 249917283]
+  "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/MyMVVMRxSwiftExample/SceneDelegate.swift": [1585398935, 837079371]
+  "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/MyMVVMRxSwiftExample/ViewModel/MemoDetailsViewModel.swift": [1585431288, 561340520]
+  "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/MyMVVMRxSwiftExample/ViewModel/CommonViewModel.swift": [1585407988, 24183108]
+  "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/MyMVVMRxSwiftExample/Scene/TransitionModel.swift": [1585425826, 798661044]
+  "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/MyMVVMRxSwiftExample/Model/Memo.swift": [1585400851, 572263507]
+  "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/MyMVVMRxSwiftExample/ViewController/MemoComposeVC.swift": [1585427460, 450264653]
+  "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/MyMVVMRxSwiftExample/ViewController/ViewModelBindbleType.swift": [1585404566, 759769467]

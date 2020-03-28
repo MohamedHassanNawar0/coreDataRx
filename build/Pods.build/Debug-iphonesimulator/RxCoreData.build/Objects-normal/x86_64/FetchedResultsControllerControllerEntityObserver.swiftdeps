@@ -1,0 +1,306 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FetchedResultsControllerEntityObserver"
+provides-nominal:
+- "10RxCoreData38FetchedResultsControllerEntityObserverC"
+provides-member:
+- ["10RxCoreData38FetchedResultsControllerEntityObserverC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "??"
+- "AnyObserver"
+- "AssignmentPrecedence"
+- "Disposable"
+- "FetchedResultsControllerEntityObserver"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "NSFetchRequest"
+- "NSFetchRequestResult"
+- "NSFetchedResultsController"
+- "NSFetchedResultsControllerDelegate"
+- "NSManagedObject"
+- "NSManagedObjectContext"
+- "NSObject"
+- "String"
+- !private "StringLiteralType"
+depends-member:
+- !private ["7RxSwift11AnyObserverV", "on"]
+- !private ["s7CVarArgP", "NSFetchedResultsController"]
+- ["s7CVarArgP", ""]
+- ["s7CVarArgP", "controller"]
+- ["s7CVarArgP", "controllerDidChangeContent"]
+- ["s7CVarArgP", "controllerWillChangeContent"]
+- !private ["s7CVarArgP", "delegate"]
+- ["s7CVarArgP", "dispose"]
+- !private ["s7CVarArgP", "fetchedObjects"]
+- !private ["s7CVarArgP", "frc"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "managedObjectContext"]
+- !private ["s7CVarArgP", "observer"]
+- !private ["s7CVarArgP", "perform"]
+- !private ["s7CVarArgP", "performFetch"]
+- !private ["s7CVarArgP", "sendNextElement"]
+- !private ["s28CustomDebugStringConvertibleP", "NSFetchedResultsController"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "controller"]
+- ["s28CustomDebugStringConvertibleP", "controllerDidChangeContent"]
+- ["s28CustomDebugStringConvertibleP", "controllerWillChangeContent"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- ["s28CustomDebugStringConvertibleP", "dispose"]
+- !private ["s28CustomDebugStringConvertibleP", "error"]
+- !private ["s28CustomDebugStringConvertibleP", "fetchedObjects"]
+- !private ["s28CustomDebugStringConvertibleP", "frc"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "managedObjectContext"]
+- !private ["s28CustomDebugStringConvertibleP", "next"]
+- !private ["s28CustomDebugStringConvertibleP", "observer"]
+- !private ["s28CustomDebugStringConvertibleP", "perform"]
+- !private ["s28CustomDebugStringConvertibleP", "performFetch"]
+- !private ["s28CustomDebugStringConvertibleP", "sendNextElement"]
+- !private ["s23CustomStringConvertibleP", "NSFetchedResultsController"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "controller"]
+- ["s23CustomStringConvertibleP", "controllerDidChangeContent"]
+- ["s23CustomStringConvertibleP", "controllerWillChangeContent"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- ["s23CustomStringConvertibleP", "dispose"]
+- !private ["s23CustomStringConvertibleP", "fetchedObjects"]
+- !private ["s23CustomStringConvertibleP", "frc"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "managedObjectContext"]
+- !private ["s23CustomStringConvertibleP", "observer"]
+- !private ["s23CustomStringConvertibleP", "perform"]
+- !private ["s23CustomStringConvertibleP", "performFetch"]
+- !private ["s23CustomStringConvertibleP", "sendNextElement"]
+- !private ["7RxSwift10DisposableP", "NSFetchedResultsController"]
+- ["7RxSwift10DisposableP", ""]
+- ["7RxSwift10DisposableP", "controller"]
+- ["7RxSwift10DisposableP", "controllerDidChangeContent"]
+- ["7RxSwift10DisposableP", "controllerWillChangeContent"]
+- ["7RxSwift10DisposableP", "dispose"]
+- !private ["7RxSwift10DisposableP", "frc"]
+- !private ["7RxSwift10DisposableP", "observer"]
+- !private ["7RxSwift10DisposableP", "sendNextElement"]
+- !private ["SQ", "NSFetchedResultsController"]
+- ["SQ", ""]
+- ["SQ", "controller"]
+- ["SQ", "controllerDidChangeContent"]
+- ["SQ", "controllerWillChangeContent"]
+- !private ["SQ", "delegate"]
+- ["SQ", "dispose"]
+- !private ["SQ", "fetchedObjects"]
+- !private ["SQ", "frc"]
+- !private ["SQ", "init"]
+- !private ["SQ", "managedObjectContext"]
+- !private ["SQ", "observer"]
+- !private ["SQ", "perform"]
+- !private ["SQ", "performFetch"]
+- !private ["SQ", "sendNextElement"]
+- !private ["7RxSwift5EventO", "error"]
+- !private ["7RxSwift5EventO", "next"]
+- !private ["7RxSwift16EventConvertibleP", "error"]
+- !private ["7RxSwift16EventConvertibleP", "next"]
+- ["10RxCoreData38FetchedResultsControllerEntityObserverC", "AnyObserver"]
+- ["10RxCoreData38FetchedResultsControllerEntityObserverC", "NSFetchRequest"]
+- ["10RxCoreData38FetchedResultsControllerEntityObserverC", "NSFetchRequestResult"]
+- ["10RxCoreData38FetchedResultsControllerEntityObserverC", "NSFetchedResultsController"]
+- ["10RxCoreData38FetchedResultsControllerEntityObserverC", "NSManagedObjectContext"]
+- ["10RxCoreData38FetchedResultsControllerEntityObserverC", "Observer"]
+- ["10RxCoreData38FetchedResultsControllerEntityObserverC", "String"]
+- ["10RxCoreData38FetchedResultsControllerEntityObserverC", "controller"]
+- ["10RxCoreData38FetchedResultsControllerEntityObserverC", "controllerDidChangeContent"]
+- ["10RxCoreData38FetchedResultsControllerEntityObserverC", "controllerWillChangeContent"]
+- ["10RxCoreData38FetchedResultsControllerEntityObserverC", "deinit"]
+- ["10RxCoreData38FetchedResultsControllerEntityObserverC", "dispose"]
+- !private ["10RxCoreData38FetchedResultsControllerEntityObserverC", "frc"]
+- ["10RxCoreData38FetchedResultsControllerEntityObserverC", "init"]
+- !private ["10RxCoreData38FetchedResultsControllerEntityObserverC", "observer"]
+- !private ["10RxCoreData38FetchedResultsControllerEntityObserverC", "sendNextElement"]
+- !private ["SH", "NSFetchedResultsController"]
+- ["SH", ""]
+- ["SH", "controller"]
+- ["SH", "controllerDidChangeContent"]
+- ["SH", "controllerWillChangeContent"]
+- !private ["SH", "delegate"]
+- ["SH", "dispose"]
+- !private ["SH", "fetchedObjects"]
+- !private ["SH", "frc"]
+- !private ["SH", "init"]
+- !private ["SH", "managedObjectContext"]
+- !private ["SH", "observer"]
+- !private ["SH", "perform"]
+- !private ["SH", "performFetch"]
+- !private ["SH", "sendNextElement"]
+- !private ["So8NSCodingP", "perform"]
+- !private ["So26NSFetchedResultsControllerC", "delegate"]
+- !private ["So26NSFetchedResultsControllerC", "fetchedObjects"]
+- !private ["So26NSFetchedResultsControllerC", "init"]
+- !private ["So26NSFetchedResultsControllerC", "managedObjectContext"]
+- !private ["So26NSFetchedResultsControllerC", "performFetch"]
+- !private ["So34NSFetchedResultsControllerDelegateP", "NSFetchedResultsController"]
+- ["So34NSFetchedResultsControllerDelegateP", ""]
+- ["So34NSFetchedResultsControllerDelegateP", "controller"]
+- ["So34NSFetchedResultsControllerDelegateP", "controllerDidChangeContent"]
+- ["So34NSFetchedResultsControllerDelegateP", "controllerWillChangeContent"]
+- ["So34NSFetchedResultsControllerDelegateP", "dispose"]
+- !private ["So34NSFetchedResultsControllerDelegateP", "frc"]
+- !private ["So34NSFetchedResultsControllerDelegateP", "observer"]
+- !private ["So34NSFetchedResultsControllerDelegateP", "sendNextElement"]
+- !private ["So9NSLockingP", "perform"]
+- !private ["So22NSManagedObjectContextC", "perform"]
+- ["So8NSObjectC", "AnyObserver"]
+- ["So8NSObjectC", "NSFetchRequest"]
+- ["So8NSObjectC", "NSFetchRequestResult"]
+- ["So8NSObjectC", "NSFetchedResultsController"]
+- ["So8NSObjectC", "NSManagedObjectContext"]
+- ["So8NSObjectC", "Observer"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "controller"]
+- ["So8NSObjectC", "controllerDidChangeContent"]
+- ["So8NSObjectC", "controllerWillChangeContent"]
+- !private ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "dispose"]
+- !private ["So8NSObjectC", "fetchedObjects"]
+- ["So8NSObjectC", "frc"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "managedObjectContext"]
+- ["So8NSObjectC", "observer"]
+- !private ["So8NSObjectC", "perform"]
+- !private ["So8NSObjectC", "performFetch"]
+- ["So8NSObjectC", "sendNextElement"]
+- !private ["So8NSObjectP", "NSFetchedResultsController"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "controller"]
+- ["So8NSObjectP", "controllerDidChangeContent"]
+- ["So8NSObjectP", "controllerWillChangeContent"]
+- !private ["So8NSObjectP", "delegate"]
+- ["So8NSObjectP", "dispose"]
+- !private ["So8NSObjectP", "fetchedObjects"]
+- !private ["So8NSObjectP", "frc"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "managedObjectContext"]
+- !private ["So8NSObjectP", "observer"]
+- !private ["So8NSObjectP", "perform"]
+- !private ["So8NSObjectP", "performFetch"]
+- !private ["So8NSObjectP", "sendNextElement"]
+- !private ["7RxSwift12ObserverTypeP", "on"]
+- !private ["7RxSwift18ReactiveCompatibleP", "NSFetchedResultsController"]
+- ["7RxSwift18ReactiveCompatibleP", ""]
+- ["7RxSwift18ReactiveCompatibleP", "controller"]
+- ["7RxSwift18ReactiveCompatibleP", "controllerDidChangeContent"]
+- ["7RxSwift18ReactiveCompatibleP", "controllerWillChangeContent"]
+- !private ["7RxSwift18ReactiveCompatibleP", "delegate"]
+- ["7RxSwift18ReactiveCompatibleP", "dispose"]
+- !private ["7RxSwift18ReactiveCompatibleP", "fetchedObjects"]
+- !private ["7RxSwift18ReactiveCompatibleP", "frc"]
+- !private ["7RxSwift18ReactiveCompatibleP", "init"]
+- !private ["7RxSwift18ReactiveCompatibleP", "managedObjectContext"]
+- !private ["7RxSwift18ReactiveCompatibleP", "observer"]
+- !private ["7RxSwift18ReactiveCompatibleP", "perform"]
+- !private ["7RxSwift18ReactiveCompatibleP", "performFetch"]
+- !private ["7RxSwift18ReactiveCompatibleP", "sendNextElement"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSFetchedResultsController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- ["10Foundation27_KeyValueCodingAndObservingP", "controller"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "controllerDidChangeContent"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "controllerWillChangeContent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "dispose"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fetchedObjects"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "frc"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "managedObjectContext"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "observer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "perform"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "performFetch"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sendNextElement"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSFetchedResultsController"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "controller"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "controllerDidChangeContent"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "controllerWillChangeContent"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "delegate"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dispose"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "fetchedObjects"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "frc"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "managedObjectContext"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "observer"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "perform"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "performFetch"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sendNextElement"]
+depends-nominal:
+- !private "7RxSwift11AnyObserverV"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "7RxSwift10DisposableP"
+- "SQ"
+- !private "7RxSwift5EventO"
+- !private "7RxSwift16EventConvertibleP"
+- "10RxCoreData38FetchedResultsControllerEntityObserverC"
+- "SH"
+- !private "So8NSCodingP"
+- !private "So26NSFetchedResultsControllerC"
+- "So34NSFetchedResultsControllerDelegateP"
+- !private "So9NSLockingP"
+- !private "So22NSManagedObjectContextC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "7RxSwift12ObserverTypeP"
+- "7RxSwift18ReactiveCompatibleP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreData.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/Pods/Target Support Files/RxCoreData/RxCoreData-umbrella.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Pods.build/Debug-iphonesimulator/RxCoreData.build/unextended-module.modulemap"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Pods.build/Debug-iphonesimulator/RxSwift.build/module.modulemap"
+- "/Users/MohamedNawar/Desktop/sharzein/Pods/Headers/Public/XLPagerTabStrip/XLPagerTabStrip.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "c14d6c5997e4ac5ad391eb57bda0efe8"
