@@ -30,7 +30,7 @@ class SceneCoordinator: SceneCoordinatorType {
         
         switch style {
         case .root:
-            currentVC = target
+            currentVC = target.sceneViewController
             window.rootViewController = target
             subject.onCompleted()
         case .push:
@@ -40,13 +40,14 @@ class SceneCoordinator: SceneCoordinatorType {
             }
             
             nav.pushViewController(target, animated: animated)
-            currentVC = target
+            currentVC = target.sceneViewController
             
             subject.onCompleted()
         case .modal:
             currentVC.present(target, animated: animated) {
                 subject.onCompleted()
             }
+            currentVC = target.sceneViewController
         }
         return subject.ignoreElements()
     }

@@ -16,41 +16,41 @@
 		<data>
 		L5cRypE5C8UjoXbssDP3bEhAlxw=
 		</data>
+		<key>Base.lproj/Main.storyboardc/2zD-0d-BkY-view-ZXs-KK-hUl.nib</key>
+		<data>
+		CF4W1fUhWHcKmI5U6qMbXijmAQQ=
+		</data>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<data>
-		dnPiiaWsrZeGWAqOXxBCRqg4Q4U=
+		XDAadKvH79wRg1ljWT62pN880Gs=
 		</data>
 		<key>Base.lproj/Main.storyboardc/ComposeNav.nib</key>
 		<data>
-		wsCos0MnETcBMyXm7DRl/5gf7gc=
+		KwKHf1CLGel+RvEcjfyel37CSy0=
 		</data>
-		<key>Base.lproj/Main.storyboardc/DetailsVC.nib</key>
+		<key>Base.lproj/Main.storyboardc/DetailVC.nib</key>
 		<data>
-		vsGObDAmEjkNr3HiSLnWBbMygX0=
+		fNGEs76DDohW4FbrZM4fDf17/3A=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
-		S6kV9O69NzdO/TNTR6C3UtFwrCo=
+		4doS68N1DVJCzbceo0PbcEUzyyQ=
 		</data>
 		<key>Base.lproj/Main.storyboardc/ListNav.nib</key>
 		<data>
-		u8wq584eNixd5SqfXdOM9JgYf58=
+		vzKbOKonUUX+KypkreekBpuUZq0=
 		</data>
 		<key>Base.lproj/Main.storyboardc/MemoComposeVC.nib</key>
 		<data>
-		9L+Q9CXpdSDOXEoFEREh6BQJ2NE=
+		iCPDU7ZOABwjt1pZp4SgEiK/XP0=
 		</data>
 		<key>Base.lproj/Main.storyboardc/MemoListVC.nib</key>
 		<data>
-		5WzOdj3A9UfuJiyFiLK8l5IIgTE=
+		OAQNfK9ZqPlQzPYSZK2XBvwTW/A=
 		</data>
 		<key>Base.lproj/Main.storyboardc/rBx-Hr-GTt-view-w4Q-31-gby.nib</key>
 		<data>
-		ejeTH/isp7g6A4xB+8+a3eXN4Gw=
-		</data>
-		<key>Base.lproj/Main.storyboardc/sHO-Mf-P3q-view-LEo-mF-DKq.nib</key>
-		<data>
-		Sv7k4Wjg4HIV2y5Bc1Z3KCyNGqA=
+		n1NvZBzda9RShxQmZS8mGP0aye4=
 		</data>
 		<key>Frameworks/Action.framework/Action</key>
 		<data>
@@ -192,67 +192,67 @@
 			T2qHtYy1m0dpUcxkfOQ9e99hp9eArKHyVzdX95KrKY0=
 			</data>
 		</dict>
+		<key>Base.lproj/Main.storyboardc/2zD-0d-BkY-view-ZXs-KK-hUl.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KERpiB6fMW8y/bl5aTKhERYwY0m162gfwi8qtYoCyYA=
+			</data>
+		</dict>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iM5tB2EWYM14evqkqt5kyxXnG6FGw0Gvlr612YIFQOE=
+			3pveHKZZtIb15qN1PFQjiVnTfFUNLboHV80T3msb/Vc=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/ComposeNav.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5dFDbWM47bN1ykjWjf8mXR/LYsLtlHG4D6LOhSH/2aA=
+			58TjLjPd058NEKD0jP5HEYU5/LXOK7izgzF7kFQMu64=
 			</data>
 		</dict>
-		<key>Base.lproj/Main.storyboardc/DetailsVC.nib</key>
+		<key>Base.lproj/Main.storyboardc/DetailVC.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8E7x98F7Yp5NNBCaxgIf0XlhJnNaGHJYQTzEltXnn7Q=
+			EoPisuU0qL7qMgGMtO8YTH6Ug1IwnhfHs361eb5NXzI=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IoKtiXOnx6wMgMOQfg5wE/K36d3rAVLEXTB6XzxcF6A=
+			buw7vv+tpt5PDjCOPYMHTrYGoZxwQqbRliyVXigAzhE=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/ListNav.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hIUXgDMvK42UB20ajtj+NN+n2LFkgwkCbtBbmoGy1UY=
+			I/YIVVHPisM9eN2l0R6F4usf/BCSG2Vctss+Sl6vEwY=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/MemoComposeVC.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Kcg0rnkQY8zGbBEoQvUDW7vh38rZPmMkVO7LviWZYIg=
+			DoP6+o9S+m33sQCDwQRCh2rrven1KTejaRDoGZU04eI=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/MemoListVC.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			V6GAtoonlTtXZ6UAWBGKHEFdvh7zrShyRenxYDV4SYg=
+			XqRVA/RQFyzNBqZnhY2qoSJ9UCJ66R9nGT+ZvAPOH7s=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/rBx-Hr-GTt-view-w4Q-31-gby.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DdPtJemO7hLbCoGrBhZeIhUscQkQbZfjNe9YqFI7kas=
-			</data>
-		</dict>
-		<key>Base.lproj/Main.storyboardc/sHO-Mf-P3q-view-LEo-mF-DKq.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			cprLKFVixdJAs7XCYiygsK6Bedjizjh0UMBByO+yGhw=
+			gZ6LC4D3qFhA0bdZzW8ejYa36pRIJAghVQutJRf6Lv0=
 			</data>
 		</dict>
 		<key>Frameworks/Action.framework/Action</key>

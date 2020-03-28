@@ -240,14 +240,23 @@ SWIFT_CLASS("_TtC20MyMVVMRxSwiftExample20MemoComposeViewModel")
 @end
 
 
+SWIFT_CLASS("_TtC20MyMVVMRxSwiftExample19MemoDetailViewModel")
+@interface MemoDetailViewModel : CommonViewModel
+@end
+
+@class UITableView;
+
 SWIFT_CLASS("_TtC20MyMVVMRxSwiftExample13MemoDetailsVC")
 @interface MemoDetailsVC : UIViewController
+@property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified listTableView;
+@property (nonatomic, weak) IBOutlet UIBarButtonItem * _Null_unspecified deleteButton;
+@property (nonatomic, weak) IBOutlet UIBarButtonItem * _Null_unspecified editButton;
+@property (nonatomic, weak) IBOutlet UIBarButtonItem * _Null_unspecified shareButton;
 - (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UITableView;
 
 SWIFT_CLASS("_TtC20MyMVVMRxSwiftExample10MemoListVC")
 @interface MemoListVC : UIViewController

@@ -7,12 +7,211 @@ provides-member:
 - ["20MyMVVMRxSwiftExample19MemoDetailViewModelC", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- "AssignmentPrecedence"
+- "BehaviorSubject"
+- "CommonViewModel"
+- "DateFormatter"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "Locale"
+- "Memo"
 - "MemoDetailViewModel"
+- "MemostorageType"
+- "SceneCoordinatorType"
+- "String"
+- "StringLiteralType"
+- !private "content"
 depends-member:
-- ["20MyMVVMRxSwiftExample19MemoDetailViewModelC", "deinit"]
+- !private ["s7CVarArgP", "BehaviorSubject"]
+- ["s7CVarArgP", "DateFormatter"]
+- ["s7CVarArgP", "Locale"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "content"]
+- ["s7CVarArgP", "dateStyle"]
+- !private ["s7CVarArgP", "formatter"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "locale"]
+- !private ["s7CVarArgP", "memo"]
+- ["s7CVarArgP", "timeStyle"]
+- ["20MyMVVMRxSwiftExample15CommonViewModelC", "BehaviorSubject"]
+- ["20MyMVVMRxSwiftExample15CommonViewModelC", "DateFormatter"]
+- ["20MyMVVMRxSwiftExample15CommonViewModelC", "Locale"]
+- ["20MyMVVMRxSwiftExample15CommonViewModelC", "Memo"]
+- ["20MyMVVMRxSwiftExample15CommonViewModelC", "MemostorageType"]
+- ["20MyMVVMRxSwiftExample15CommonViewModelC", "SceneCoordinatorType"]
+- ["20MyMVVMRxSwiftExample15CommonViewModelC", "String"]
+- ["20MyMVVMRxSwiftExample15CommonViewModelC", ""]
+- !private ["20MyMVVMRxSwiftExample15CommonViewModelC", "content"]
+- ["20MyMVVMRxSwiftExample15CommonViewModelC", "contents"]
+- ["20MyMVVMRxSwiftExample15CommonViewModelC", "formatter"]
+- ["20MyMVVMRxSwiftExample15CommonViewModelC", "init"]
+- ["20MyMVVMRxSwiftExample15CommonViewModelC", "memo"]
+- !private ["s28CustomDebugStringConvertibleP", "BehaviorSubject"]
+- ["s28CustomDebugStringConvertibleP", "DateFormatter"]
+- ["s28CustomDebugStringConvertibleP", "Locale"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "content"]
+- ["s28CustomDebugStringConvertibleP", "dateStyle"]
+- !private ["s28CustomDebugStringConvertibleP", "formatter"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "locale"]
+- !private ["s28CustomDebugStringConvertibleP", "memo"]
+- ["s28CustomDebugStringConvertibleP", "timeStyle"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "BehaviorSubject"]
+- ["s23CustomStringConvertibleP", "DateFormatter"]
+- ["s23CustomStringConvertibleP", "Locale"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "content"]
+- ["s23CustomStringConvertibleP", "dateStyle"]
+- !private ["s23CustomStringConvertibleP", "formatter"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "locale"]
+- !private ["s23CustomStringConvertibleP", "memo"]
+- ["s23CustomStringConvertibleP", "timeStyle"]
+- ["So15NSDateFormatterC", "dateStyle"]
+- ["So15NSDateFormatterC", "init"]
+- ["So15NSDateFormatterC", "locale"]
+- ["So15NSDateFormatterC", "timeStyle"]
+- ["Se", "init"]
+- ["SE", "init"]
+- !private ["SQ", "BehaviorSubject"]
+- ["SQ", "DateFormatter"]
+- ["SQ", "Locale"]
+- ["SQ", ""]
+- !private ["SQ", "content"]
+- ["SQ", "dateStyle"]
+- !private ["SQ", "formatter"]
+- ["SQ", "init"]
+- ["SQ", "locale"]
+- ["SQ", "medium"]
+- !private ["SQ", "memo"]
+- ["SQ", "timeStyle"]
+- ["So11NSFormatterC", "dateStyle"]
+- ["So11NSFormatterC", "init"]
+- ["So11NSFormatterC", "locale"]
+- ["So11NSFormatterC", "timeStyle"]
+- !private ["SH", "BehaviorSubject"]
+- ["SH", "DateFormatter"]
+- ["SH", "Locale"]
+- ["SH", ""]
+- !private ["SH", "content"]
+- ["SH", "dateStyle"]
+- !private ["SH", "formatter"]
+- ["SH", "init"]
+- ["SH", "locale"]
+- ["SH", "medium"]
+- !private ["SH", "memo"]
+- ["SH", "timeStyle"]
+- ["10Foundation6LocaleV", "init"]
+- ["20MyMVVMRxSwiftExample19MemoDetailViewModelC", "BehaviorSubject"]
+- ["20MyMVVMRxSwiftExample19MemoDetailViewModelC", "DateFormatter"]
+- ["20MyMVVMRxSwiftExample19MemoDetailViewModelC", "Locale"]
+- ["20MyMVVMRxSwiftExample19MemoDetailViewModelC", "Memo"]
+- ["20MyMVVMRxSwiftExample19MemoDetailViewModelC", "MemostorageType"]
+- ["20MyMVVMRxSwiftExample19MemoDetailViewModelC", "SceneCoordinatorType"]
+- ["20MyMVVMRxSwiftExample19MemoDetailViewModelC", "String"]
+- !private ["20MyMVVMRxSwiftExample19MemoDetailViewModelC", "content"]
+- ["20MyMVVMRxSwiftExample19MemoDetailViewModelC", "contents"]
+- !private ["20MyMVVMRxSwiftExample19MemoDetailViewModelC", "formatter"]
 - ["20MyMVVMRxSwiftExample19MemoDetailViewModelC", "init"]
+- ["20MyMVVMRxSwiftExample19MemoDetailViewModelC", "memo"]
+- ["So8NSCodingP", "dateStyle"]
+- ["So8NSCodingP", "init"]
+- ["So8NSCodingP", "locale"]
+- ["So8NSCodingP", "timeStyle"]
+- ["So9NSCopyingP", "dateStyle"]
+- ["So9NSCopyingP", "init"]
+- ["So9NSCopyingP", "locale"]
+- ["So9NSCopyingP", "timeStyle"]
+- ["So8NSObjectC", "BehaviorSubject"]
+- ["So8NSObjectC", "DateFormatter"]
+- ["So8NSObjectC", "Locale"]
+- ["So8NSObjectC", "Memo"]
+- ["So8NSObjectC", "MemostorageType"]
+- ["So8NSObjectC", "SceneCoordinatorType"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "content"]
+- ["So8NSObjectC", "contents"]
+- ["So8NSObjectC", "dateStyle"]
+- ["So8NSObjectC", "formatter"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "locale"]
+- ["So8NSObjectC", "memo"]
+- ["So8NSObjectC", "timeStyle"]
+- !private ["So8NSObjectP", "BehaviorSubject"]
+- ["So8NSObjectP", "DateFormatter"]
+- ["So8NSObjectP", "Locale"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "content"]
+- ["So8NSObjectP", "dateStyle"]
+- !private ["So8NSObjectP", "formatter"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "locale"]
+- !private ["So8NSObjectP", "memo"]
+- ["So8NSObjectP", "timeStyle"]
+- ["SY", "medium"]
+- !private ["7RxSwift18ReactiveCompatibleP", "BehaviorSubject"]
+- ["7RxSwift18ReactiveCompatibleP", "DateFormatter"]
+- ["7RxSwift18ReactiveCompatibleP", "Locale"]
+- ["7RxSwift18ReactiveCompatibleP", ""]
+- !private ["7RxSwift18ReactiveCompatibleP", "content"]
+- ["7RxSwift18ReactiveCompatibleP", "dateStyle"]
+- !private ["7RxSwift18ReactiveCompatibleP", "formatter"]
+- ["7RxSwift18ReactiveCompatibleP", "init"]
+- ["7RxSwift18ReactiveCompatibleP", "locale"]
+- !private ["7RxSwift18ReactiveCompatibleP", "memo"]
+- ["7RxSwift18ReactiveCompatibleP", "timeStyle"]
+- ["10Foundation20ReferenceConvertibleP", "init"]
+- ["So20NSDateFormatterStyleV", "medium"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "BehaviorSubject"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "DateFormatter"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Locale"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "content"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "dateStyle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "formatter"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "locale"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "memo"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "timeStyle"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "BehaviorSubject"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "DateFormatter"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Locale"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "content"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dateStyle"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "formatter"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "locale"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "memo"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "timeStyle"]
+- ["s21_ObjectiveCBridgeableP", "init"]
 depends-nominal:
+- "s7CVarArgP"
+- "20MyMVVMRxSwiftExample15CommonViewModelC"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "So15NSDateFormatterC"
+- "Se"
+- "SE"
+- "SQ"
+- "So11NSFormatterC"
+- "SH"
+- "10Foundation6LocaleV"
 - "20MyMVVMRxSwiftExample19MemoDetailViewModelC"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "SY"
+- "7RxSwift18ReactiveCompatibleP"
+- "10Foundation20ReferenceConvertibleP"
+- "So20NSDateFormatterStyleV"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
@@ -83,4 +282,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "5e59caf962a2bef2b78f9d8873387597"
+interface-hash: "cbefbd09e5c19db006bc8d526515454c"
