@@ -34,6 +34,7 @@ depends-member:
 - !private ["s7CVarArgP", "presentingViewController"]
 - !private ["s7CVarArgP", "pushViewController"]
 - !private ["s7CVarArgP", "rootViewController"]
+- !private ["s7CVarArgP", "rx"]
 - !private ["s7CVarArgP", "sceneViewController"]
 - !private ["s7CVarArgP", "viewControllers"]
 - !private ["7RxSwift10CancelableP", "ignoreElements"]
@@ -44,6 +45,8 @@ depends-member:
 - !private ["7RxSwift16CompletableEventO", "completed"]
 - !private ["7RxSwift16CompletableEventO", "error"]
 - !private ["10Foundation15ContiguousBytesP", "last"]
+- !private ["7RxCocoa12ControlEventV", "subscribe"]
+- !private ["7RxCocoa16ControlEventTypeP", "subscribe"]
 - !private ["s28CustomDebugStringConvertibleP", "dismiss"]
 - !private ["s28CustomDebugStringConvertibleP", "last"]
 - !private ["s28CustomDebugStringConvertibleP", "navigationController"]
@@ -52,6 +55,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "presentingViewController"]
 - !private ["s28CustomDebugStringConvertibleP", "pushViewController"]
 - !private ["s28CustomDebugStringConvertibleP", "rootViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "rx"]
 - !private ["s28CustomDebugStringConvertibleP", "sceneViewController"]
 - !private ["s28CustomDebugStringConvertibleP", "viewControllers"]
 - !private ["s17CustomReflectableP", "last"]
@@ -63,10 +67,12 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "presentingViewController"]
 - !private ["s23CustomStringConvertibleP", "pushViewController"]
 - !private ["s23CustomStringConvertibleP", "rootViewController"]
+- !private ["s23CustomStringConvertibleP", "rx"]
 - !private ["s23CustomStringConvertibleP", "sceneViewController"]
 - !private ["s23CustomStringConvertibleP", "viewControllers"]
 - !private ["10Foundation12DataProtocolP", "last"]
 - !private ["Se", "last"]
+- !private ["7RxSwift10DisposableP", "disposed"]
 - !private ["7RxSwift10DisposableP", "ignoreElements"]
 - !private ["7RxSwift10DisposableP", "init"]
 - !private ["7RxSwift10DisposableP", "onCompleted"]
@@ -88,6 +94,7 @@ depends-member:
 - !private ["SQ", "pushViewController"]
 - ["SQ", "root"]
 - !private ["SQ", "rootViewController"]
+- !private ["SQ", "rx"]
 - !private ["SQ", "sceneViewController"]
 - !private ["SQ", "unknown"]
 - !private ["SQ", "viewControllers"]
@@ -97,6 +104,7 @@ depends-member:
 - !private ["s25ExpressibleByArrayLiteralP", "last"]
 - !private ["7RxCocoa11HasDelegateP", "popViewController"]
 - !private ["7RxCocoa11HasDelegateP", "pushViewController"]
+- !private ["7RxCocoa11HasDelegateP", "rx"]
 - !private ["7RxCocoa11HasDelegateP", "viewControllers"]
 - !private ["SH", "cannotPop"]
 - !private ["SH", "dismiss"]
@@ -111,6 +119,7 @@ depends-member:
 - !private ["SH", "pushViewController"]
 - ["SH", "root"]
 - !private ["SH", "rootViewController"]
+- !private ["SH", "rx"]
 - !private ["SH", "sceneViewController"]
 - !private ["SH", "unknown"]
 - !private ["SH", "viewControllers"]
@@ -123,6 +132,7 @@ depends-member:
 - !private ["So8NSCodingP", "presentingViewController"]
 - !private ["So8NSCodingP", "pushViewController"]
 - !private ["So8NSCodingP", "rootViewController"]
+- !private ["So8NSCodingP", "rx"]
 - !private ["So8NSCodingP", "sceneViewController"]
 - !private ["So8NSCodingP", "viewControllers"]
 - !private ["So26NSExtensionRequestHandlingP", "dismiss"]
@@ -131,6 +141,7 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "present"]
 - !private ["So26NSExtensionRequestHandlingP", "presentingViewController"]
 - !private ["So26NSExtensionRequestHandlingP", "pushViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "rx"]
 - !private ["So26NSExtensionRequestHandlingP", "sceneViewController"]
 - !private ["So26NSExtensionRequestHandlingP", "viewControllers"]
 - !private ["So8NSObjectC", "dismiss"]
@@ -140,6 +151,7 @@ depends-member:
 - !private ["So8NSObjectC", "presentingViewController"]
 - !private ["So8NSObjectC", "pushViewController"]
 - !private ["So8NSObjectC", "rootViewController"]
+- !private ["So8NSObjectC", "rx"]
 - !private ["So8NSObjectC", "sceneViewController"]
 - !private ["So8NSObjectC", "viewControllers"]
 - !private ["So8NSObjectP", "dismiss"]
@@ -149,6 +161,7 @@ depends-member:
 - !private ["So8NSObjectP", "presentingViewController"]
 - !private ["So8NSObjectP", "pushViewController"]
 - !private ["So8NSObjectP", "rootViewController"]
+- !private ["So8NSObjectP", "rx"]
 - !private ["So8NSObjectP", "sceneViewController"]
 - !private ["So8NSObjectP", "viewControllers"]
 - !private ["7RxSwift10ObservableC", "ignoreElements"]
@@ -160,10 +173,12 @@ depends-member:
 - !private ["7RxSwift25ObservableConvertibleTypeP", "init"]
 - !private ["7RxSwift25ObservableConvertibleTypeP", "onCompleted"]
 - !private ["7RxSwift25ObservableConvertibleTypeP", "onError"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "subscribe"]
 - !private ["7RxSwift14ObservableTypeP", "ignoreElements"]
 - !private ["7RxSwift14ObservableTypeP", "init"]
 - !private ["7RxSwift14ObservableTypeP", "onCompleted"]
 - !private ["7RxSwift14ObservableTypeP", "onError"]
+- !private ["7RxSwift14ObservableTypeP", "subscribe"]
 - !private ["7RxSwift12ObserverTypeP", "ignoreElements"]
 - !private ["7RxSwift12ObserverTypeP", "init"]
 - !private ["7RxSwift12ObserverTypeP", "onCompleted"]
@@ -176,6 +191,7 @@ depends-member:
 - !private ["7RxSwift14PublishSubjectC", "onError"]
 - !private ["Sk", "last"]
 - !private ["Sm", "last"]
+- !private ["7RxSwift8ReactiveV", "willShow"]
 - !private ["7RxSwift18ReactiveCompatibleP", "dismiss"]
 - !private ["7RxSwift18ReactiveCompatibleP", "navigationController"]
 - !private ["7RxSwift18ReactiveCompatibleP", "popViewController"]
@@ -183,6 +199,7 @@ depends-member:
 - !private ["7RxSwift18ReactiveCompatibleP", "presentingViewController"]
 - !private ["7RxSwift18ReactiveCompatibleP", "pushViewController"]
 - !private ["7RxSwift18ReactiveCompatibleP", "rootViewController"]
+- !private ["7RxSwift18ReactiveCompatibleP", "rx"]
 - !private ["7RxSwift18ReactiveCompatibleP", "sceneViewController"]
 - !private ["7RxSwift18ReactiveCompatibleP", "viewControllers"]
 - !private ["20MyMVVMRxSwiftExample5SceneO", "instantiate"]
@@ -210,6 +227,7 @@ depends-member:
 - !private ["20MyMVVMRxSwiftExample20SceneCoordinatorTypeP", "PublishSubject"]
 - !private ["20MyMVVMRxSwiftExample20SceneCoordinatorTypeP", "TransitionError"]
 - ["20MyMVVMRxSwiftExample20SceneCoordinatorTypeP", ""]
+- !private ["20MyMVVMRxSwiftExample20SceneCoordinatorTypeP", "bag"]
 - ["20MyMVVMRxSwiftExample20SceneCoordinatorTypeP", "close"]
 - !private ["20MyMVVMRxSwiftExample20SceneCoordinatorTypeP", "currentVC"]
 - ["20MyMVVMRxSwiftExample20SceneCoordinatorTypeP", "transition"]
@@ -239,6 +257,7 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "presentingViewController"]
 - !private ["So21UIAppearanceContainerP", "pushViewController"]
 - !private ["So21UIAppearanceContainerP", "rootViewController"]
+- !private ["So21UIAppearanceContainerP", "rx"]
 - !private ["So21UIAppearanceContainerP", "sceneViewController"]
 - !private ["So21UIAppearanceContainerP", "viewControllers"]
 - !private ["So18UIContentContainerP", "dismiss"]
@@ -247,6 +266,7 @@ depends-member:
 - !private ["So18UIContentContainerP", "present"]
 - !private ["So18UIContentContainerP", "presentingViewController"]
 - !private ["So18UIContentContainerP", "pushViewController"]
+- !private ["So18UIContentContainerP", "rx"]
 - !private ["So18UIContentContainerP", "sceneViewController"]
 - !private ["So18UIContentContainerP", "viewControllers"]
 - !private ["So17UICoordinateSpaceP", "rootViewController"]
@@ -258,6 +278,7 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "presentingViewController"]
 - !private ["So18UIFocusEnvironmentP", "pushViewController"]
 - !private ["So18UIFocusEnvironmentP", "rootViewController"]
+- !private ["So18UIFocusEnvironmentP", "rx"]
 - !private ["So18UIFocusEnvironmentP", "sceneViewController"]
 - !private ["So18UIFocusEnvironmentP", "viewControllers"]
 - !private ["So11UIFocusItemP", "rootViewController"]
@@ -265,6 +286,7 @@ depends-member:
 - !private ["So24UILargeContentViewerItemP", "rootViewController"]
 - !private ["So22UINavigationControllerC", "popViewController"]
 - !private ["So22UINavigationControllerC", "pushViewController"]
+- !private ["So22UINavigationControllerC", "rx"]
 - !private ["So22UINavigationControllerC", "viewControllers"]
 - !private ["So30UIPasteConfigurationSupportingP", "dismiss"]
 - !private ["So30UIPasteConfigurationSupportingP", "navigationController"]
@@ -273,6 +295,7 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "presentingViewController"]
 - !private ["So30UIPasteConfigurationSupportingP", "pushViewController"]
 - !private ["So30UIPasteConfigurationSupportingP", "rootViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "rx"]
 - !private ["So30UIPasteConfigurationSupportingP", "sceneViewController"]
 - !private ["So30UIPasteConfigurationSupportingP", "viewControllers"]
 - !private ["So11UIResponderC", "dismiss"]
@@ -282,6 +305,7 @@ depends-member:
 - !private ["So11UIResponderC", "presentingViewController"]
 - !private ["So11UIResponderC", "pushViewController"]
 - !private ["So11UIResponderC", "rootViewController"]
+- !private ["So11UIResponderC", "rx"]
 - !private ["So11UIResponderC", "sceneViewController"]
 - !private ["So11UIResponderC", "viewControllers"]
 - !private ["So30UIResponderStandardEditActionsP", "dismiss"]
@@ -291,6 +315,7 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "presentingViewController"]
 - !private ["So30UIResponderStandardEditActionsP", "pushViewController"]
 - !private ["So30UIResponderStandardEditActionsP", "rootViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "rx"]
 - !private ["So30UIResponderStandardEditActionsP", "sceneViewController"]
 - !private ["So30UIResponderStandardEditActionsP", "viewControllers"]
 - !private ["So16UIStateRestoringP", "dismiss"]
@@ -299,6 +324,7 @@ depends-member:
 - !private ["So16UIStateRestoringP", "present"]
 - !private ["So16UIStateRestoringP", "presentingViewController"]
 - !private ["So16UIStateRestoringP", "pushViewController"]
+- !private ["So16UIStateRestoringP", "rx"]
 - !private ["So16UIStateRestoringP", "sceneViewController"]
 - !private ["So16UIStateRestoringP", "viewControllers"]
 - !private ["So18UITraitEnvironmentP", "dismiss"]
@@ -308,6 +334,7 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "presentingViewController"]
 - !private ["So18UITraitEnvironmentP", "pushViewController"]
 - !private ["So18UITraitEnvironmentP", "rootViewController"]
+- !private ["So18UITraitEnvironmentP", "rx"]
 - !private ["So18UITraitEnvironmentP", "sceneViewController"]
 - !private ["So18UITraitEnvironmentP", "viewControllers"]
 - !private ["So23UIUserActivityRestoringP", "dismiss"]
@@ -317,6 +344,7 @@ depends-member:
 - !private ["So23UIUserActivityRestoringP", "presentingViewController"]
 - !private ["So23UIUserActivityRestoringP", "pushViewController"]
 - !private ["So23UIUserActivityRestoringP", "rootViewController"]
+- !private ["So23UIUserActivityRestoringP", "rx"]
 - !private ["So23UIUserActivityRestoringP", "sceneViewController"]
 - !private ["So23UIUserActivityRestoringP", "viewControllers"]
 - !private ["So6UIViewC", "rootViewController"]
@@ -326,6 +354,7 @@ depends-member:
 - !private ["So16UIViewControllerC", "present"]
 - !private ["So16UIViewControllerC", "presentingViewController"]
 - !private ["So16UIViewControllerC", "pushViewController"]
+- !private ["So16UIViewControllerC", "rx"]
 - !private ["So16UIViewControllerC", "sceneViewController"]
 - !private ["So16UIViewControllerC", "viewControllers"]
 - !private ["So8UIWindowC", "rootViewController"]
@@ -340,6 +369,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "presentingViewController"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "pushViewController"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "rootViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rx"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "sceneViewController"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewControllers"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dismiss"]
@@ -349,6 +379,7 @@ depends-member:
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "presentingViewController"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "pushViewController"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "rootViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "rx"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sceneViewController"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewControllers"]
 - !private ["s21_ObjectiveCBridgeableP", "last"]
@@ -362,6 +393,8 @@ depends-nominal:
 - !private "Sl"
 - !private "7RxSwift16CompletableEventO"
 - !private "10Foundation15ContiguousBytesP"
+- !private "7RxCocoa12ControlEventV"
+- !private "7RxCocoa16ControlEventTypeP"
 - !private "s28CustomDebugStringConvertibleP"
 - !private "s17CustomReflectableP"
 - !private "s23CustomStringConvertibleP"
@@ -392,6 +425,7 @@ depends-nominal:
 - !private "7RxSwift14PublishSubjectC"
 - !private "Sk"
 - !private "Sm"
+- !private "7RxSwift8ReactiveV"
 - !private "7RxSwift18ReactiveCompatibleP"
 - !private "20MyMVVMRxSwiftExample5SceneO"
 - "20MyMVVMRxSwiftExample16SceneCoordinatorC"
@@ -459,14 +493,20 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Modules/RxCocoa.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCoreData/RxCoreData.framework/Modules/RxCoreData.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/Action/Action.framework/Modules/Action.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/Differentiator/Differentiator.framework/Modules/Differentiator.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxDataSources/RxDataSources.framework/Modules/RxDataSources.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/NSObject+Rx/NSObject_Rx.framework/Modules/NSObject_Rx.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxRelay/RxRelay.framework/Modules/RxRelay.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RX.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-umbrella.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCoreData/RxCoreData.framework/Headers/RxCoreData-umbrella.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/Action/Action.framework/Headers/Action-umbrella.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/Differentiator/Differentiator.framework/Headers/Differentiator-umbrella.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxDataSources/RxDataSources.framework/Headers/RxDataSources-umbrella.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/NSObject+Rx/NSObject_Rx.framework/Headers/NSObject+Rx-umbrella.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxRelay/RxRelay.framework/Headers/RxRelay-umbrella.h"
@@ -475,13 +515,19 @@ depends-external:
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoaRuntime.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXKVOObserver.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-Swift.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCoreData/RxCoreData.framework/Headers/RxCoreData-Swift.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/Action/Action.framework/Headers/Action-Swift.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/Differentiator/Differentiator.framework/Headers/Differentiator-Swift.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxDataSources/RxDataSources.framework/Headers/RxDataSources-Swift.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/NSObject+Rx/NSObject_Rx.framework/Headers/NSObject_Rx-Swift.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxRelay/RxRelay.framework/Headers/RxRelay-Swift.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXDelegateProxy.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Modules/module.modulemap"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCoreData/RxCoreData.framework/Modules/module.modulemap"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/Action/Action.framework/Modules/module.modulemap"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/Differentiator/Differentiator.framework/Modules/module.modulemap"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxDataSources/RxDataSources.framework/Modules/module.modulemap"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/module.modulemap"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/NSObject+Rx/NSObject_Rx.framework/Modules/module.modulemap"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxRelay/RxRelay.framework/Modules/module.modulemap"

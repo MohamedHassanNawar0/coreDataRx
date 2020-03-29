@@ -150,15 +150,15 @@
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v26-J9-zAK">
                                 <rect key="frame" x="0.0" y="813" width="414" height="49"/>
                                 <items>
-                                    <barButtonItem image="Icon-Trash" style="plain" id="1QC-ab-xTL">
+                                    <barButtonItem image="trash" catalog="system" style="plain" id="1QC-ab-xTL">
                                         <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="HiJ-gI-V1s"/>
-                                    <barButtonItem image="Icon-Edit" id="hM1-gj-WIg">
+                                    <barButtonItem title="Edit" id="hM1-gj-WIg">
                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="CTs-Az-0ii"/>
-                                    <barButtonItem image="Icon-Share" style="plain" id="QES-Lu-nGU">
+                                    <barButtonItem image="square.and.arrow.up" catalog="system" style="plain" id="QES-Lu-nGU">
                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </barButtonItem>
                                 </items>
@@ -231,8 +231,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Icon-Edit" width="16" height="16"/>
-        <image name="Icon-Share" width="16" height="16"/>
-        <image name="Icon-Trash" width="16" height="16"/>
+        <image name="square.and.arrow.up" catalog="system" width="56" height="64"/>
+        <image name="trash" catalog="system" width="60" height="64"/>
     </resources>
 </document>

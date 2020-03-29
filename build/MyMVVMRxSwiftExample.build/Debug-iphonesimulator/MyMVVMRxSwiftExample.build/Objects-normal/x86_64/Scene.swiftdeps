@@ -6,8 +6,8 @@ provides-nominal:
 provides-member:
 - ["20MyMVVMRxSwiftExample5SceneO", ""]
 - ["So16UIViewControllerC", ""]
-- ["So16UIViewControllerC", "sceneViewController"]
 - ["20MyMVVMRxSwiftExample5SceneO", "instantiate"]
+- ["So16UIViewControllerC", "sceneViewController"]
 provides-dynamic-lookup:
 depends-top-level:
 - !private "??"
@@ -250,14 +250,20 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Modules/RxCocoa.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCoreData/RxCoreData.framework/Modules/RxCoreData.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/Action/Action.framework/Modules/Action.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/Differentiator/Differentiator.framework/Modules/Differentiator.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxDataSources/RxDataSources.framework/Modules/RxDataSources.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/NSObject+Rx/NSObject_Rx.framework/Modules/NSObject_Rx.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxRelay/RxRelay.framework/Modules/RxRelay.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RX.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-umbrella.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCoreData/RxCoreData.framework/Headers/RxCoreData-umbrella.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/Action/Action.framework/Headers/Action-umbrella.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/Differentiator/Differentiator.framework/Headers/Differentiator-umbrella.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxDataSources/RxDataSources.framework/Headers/RxDataSources-umbrella.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/NSObject+Rx/NSObject_Rx.framework/Headers/NSObject+Rx-umbrella.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxRelay/RxRelay.framework/Headers/RxRelay-umbrella.h"
@@ -266,13 +272,19 @@ depends-external:
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoaRuntime.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXKVOObserver.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-Swift.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCoreData/RxCoreData.framework/Headers/RxCoreData-Swift.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/Action/Action.framework/Headers/Action-Swift.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/Differentiator/Differentiator.framework/Headers/Differentiator-Swift.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxDataSources/RxDataSources.framework/Headers/RxDataSources-Swift.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/NSObject+Rx/NSObject_Rx.framework/Headers/NSObject_Rx-Swift.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxRelay/RxRelay.framework/Headers/RxRelay-Swift.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXDelegateProxy.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Modules/module.modulemap"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCoreData/RxCoreData.framework/Modules/module.modulemap"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/Action/Action.framework/Modules/module.modulemap"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/Differentiator/Differentiator.framework/Modules/module.modulemap"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxDataSources/RxDataSources.framework/Modules/module.modulemap"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/module.modulemap"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/NSObject+Rx/NSObject_Rx.framework/Modules/module.modulemap"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxRelay/RxRelay.framework/Modules/module.modulemap"
@@ -290,4 +302,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "8350cc780384e569aea09826d11ee30c"
+interface-hash: "16b0159b9928952643d019d764aa252b"

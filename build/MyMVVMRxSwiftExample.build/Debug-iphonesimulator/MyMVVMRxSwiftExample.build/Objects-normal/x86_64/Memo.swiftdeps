@@ -10,50 +10,172 @@ depends-top-level:
 - "=="
 - "AssignmentPrecedence"
 - !private "BooleanLiteralType"
+- "CastingPrecedence"
 - "Date"
 - "Equatable"
 - !private "FloatLiteralType"
+- "IdentifiableType"
 - !private "IntegerLiteralType"
 - "Memo"
+- "NSManagedObject"
+- "Persistable"
 - "String"
 - !private "StringLiteralType"
+- !private "print"
 depends-member:
+- !private ["s7CVarArgP", "managedObjectContext"]
+- !private ["s7CVarArgP", "save"]
+- !private ["s7CVarArgP", "setValue"]
+- !private ["s7CVarArgP", "value"]
+- !private ["SL", "init"]
 - !private ["SL", "timeIntervalSinceReferenceDate"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "managedObjectContext"]
+- !private ["s28CustomDebugStringConvertibleP", "save"]
+- !private ["s28CustomDebugStringConvertibleP", "setValue"]
 - !private ["s28CustomDebugStringConvertibleP", "timeIntervalSinceReferenceDate"]
+- !private ["s28CustomDebugStringConvertibleP", "value"]
+- !private ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "timeIntervalSinceReferenceDate"]
 - !private ["s23CustomStringConvertibleP", "appendInterpolation"]
 - !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "managedObjectContext"]
+- !private ["s23CustomStringConvertibleP", "save"]
+- !private ["s23CustomStringConvertibleP", "setValue"]
 - !private ["s23CustomStringConvertibleP", "timeIntervalSinceReferenceDate"]
+- !private ["s23CustomStringConvertibleP", "value"]
+- !private ["10Foundation4DateV", "init"]
 - !private ["10Foundation4DateV", "timeIntervalSinceReferenceDate"]
+- !private ["Se", "init"]
 - !private ["Se", "timeIntervalSinceReferenceDate"]
 - !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
 - !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "init"]
 - !private ["SE", "timeIntervalSinceReferenceDate"]
 - ["SQ", "=="]
+- !private ["SQ", "Date"]
+- ["SQ", "Identity"]
+- ["SQ", "T"]
 - ["SQ", ""]
+- ["SQ", "_Default_Identity"]
+- ["SQ", "_Default_T"]
 - !private ["SQ", "content"]
-- !private ["SQ", "identity"]
-- !private ["SQ", "insertData"]
+- ["SQ", "entityName"]
+- ["SQ", "identity"]
+- ["SQ", "init"]
+- !private ["SQ", "insertDate"]
+- !private ["SQ", "managedObjectContext"]
+- ["SQ", "predicate"]
+- ["SQ", "primaryAttributeName"]
+- !private ["SQ", "print"]
+- !private ["SQ", "save"]
+- !private ["SQ", "setValue"]
 - !private ["SQ", "timeIntervalSinceReferenceDate"]
+- ["SQ", "update"]
+- !private ["SQ", "value"]
+- !private ["SH", "init"]
+- !private ["SH", "managedObjectContext"]
+- !private ["SH", "save"]
+- !private ["SH", "setValue"]
 - !private ["SH", "timeIntervalSinceReferenceDate"]
+- !private ["SH", "value"]
+- ["14Differentiator16IdentifiableTypeP", "=="]
+- !private ["14Differentiator16IdentifiableTypeP", "Date"]
+- ["14Differentiator16IdentifiableTypeP", "Identity"]
+- ["14Differentiator16IdentifiableTypeP", "T"]
+- ["14Differentiator16IdentifiableTypeP", ""]
+- ["14Differentiator16IdentifiableTypeP", "_Default_Identity"]
+- ["14Differentiator16IdentifiableTypeP", "_Default_T"]
+- !private ["14Differentiator16IdentifiableTypeP", "content"]
+- ["14Differentiator16IdentifiableTypeP", "entityName"]
+- ["14Differentiator16IdentifiableTypeP", "identity"]
+- ["14Differentiator16IdentifiableTypeP", "init"]
+- !private ["14Differentiator16IdentifiableTypeP", "insertDate"]
+- ["14Differentiator16IdentifiableTypeP", "predicate"]
+- ["14Differentiator16IdentifiableTypeP", "primaryAttributeName"]
+- !private ["14Differentiator16IdentifiableTypeP", "print"]
+- ["14Differentiator16IdentifiableTypeP", "update"]
 - ["20MyMVVMRxSwiftExample4MemoV", "=="]
 - ["20MyMVVMRxSwiftExample4MemoV", "Date"]
+- ["20MyMVVMRxSwiftExample4MemoV", "Identity"]
 - ["20MyMVVMRxSwiftExample4MemoV", "Memo"]
+- ["20MyMVVMRxSwiftExample4MemoV", "NSManagedObject"]
 - ["20MyMVVMRxSwiftExample4MemoV", "String"]
+- ["20MyMVVMRxSwiftExample4MemoV", "T"]
+- ["20MyMVVMRxSwiftExample4MemoV", "_Default_Identity"]
+- ["20MyMVVMRxSwiftExample4MemoV", "_Default_T"]
 - ["20MyMVVMRxSwiftExample4MemoV", "__derived_struct_equals"]
 - ["20MyMVVMRxSwiftExample4MemoV", "content"]
 - ["20MyMVVMRxSwiftExample4MemoV", "deinit"]
+- ["20MyMVVMRxSwiftExample4MemoV", "entityName"]
 - ["20MyMVVMRxSwiftExample4MemoV", "identity"]
 - ["20MyMVVMRxSwiftExample4MemoV", "init"]
-- ["20MyMVVMRxSwiftExample4MemoV", "insertData"]
+- ["20MyMVVMRxSwiftExample4MemoV", "insertDate"]
+- ["20MyMVVMRxSwiftExample4MemoV", "predicate"]
+- ["20MyMVVMRxSwiftExample4MemoV", "primaryAttributeName"]
+- !private ["20MyMVVMRxSwiftExample4MemoV", "print"]
+- ["20MyMVVMRxSwiftExample4MemoV", "update"]
+- !private ["So8NSCodingP", "save"]
+- !private ["So20NSFetchRequestResultP", "managedObjectContext"]
+- !private ["So20NSFetchRequestResultP", "setValue"]
+- !private ["So20NSFetchRequestResultP", "value"]
+- !private ["So9NSLockingP", "save"]
+- !private ["So15NSManagedObjectC", "managedObjectContext"]
+- !private ["So15NSManagedObjectC", "setValue"]
+- !private ["So15NSManagedObjectC", "value"]
+- !private ["So22NSManagedObjectContextC", "save"]
+- !private ["So8NSObjectC", "managedObjectContext"]
+- !private ["So8NSObjectC", "save"]
+- !private ["So8NSObjectC", "setValue"]
+- !private ["So8NSObjectC", "value"]
+- !private ["So8NSObjectP", "managedObjectContext"]
+- !private ["So8NSObjectP", "save"]
+- !private ["So8NSObjectP", "setValue"]
+- !private ["So8NSObjectP", "value"]
+- !private ["7Combine16ObservableObjectP", "managedObjectContext"]
+- !private ["7Combine16ObservableObjectP", "setValue"]
+- !private ["7Combine16ObservableObjectP", "value"]
+- ["10RxCoreData11PersistableP", "=="]
+- !private ["10RxCoreData11PersistableP", "Date"]
+- ["10RxCoreData11PersistableP", "Identity"]
+- ["10RxCoreData11PersistableP", "T"]
+- ["10RxCoreData11PersistableP", ""]
+- ["10RxCoreData11PersistableP", "_Default_Identity"]
+- ["10RxCoreData11PersistableP", "_Default_T"]
+- !private ["10RxCoreData11PersistableP", "content"]
+- ["10RxCoreData11PersistableP", "entityName"]
+- ["10RxCoreData11PersistableP", "identity"]
+- ["10RxCoreData11PersistableP", "init"]
+- !private ["10RxCoreData11PersistableP", "insertDate"]
+- ["10RxCoreData11PersistableP", "predicate"]
+- ["10RxCoreData11PersistableP", "primaryAttributeName"]
+- !private ["10RxCoreData11PersistableP", "print"]
+- ["10RxCoreData11PersistableP", "update"]
+- !private ["7RxSwift18ReactiveCompatibleP", "managedObjectContext"]
+- !private ["7RxSwift18ReactiveCompatibleP", "save"]
+- !private ["7RxSwift18ReactiveCompatibleP", "setValue"]
+- !private ["7RxSwift18ReactiveCompatibleP", "value"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
 - !private ["10Foundation20ReferenceConvertibleP", "timeIntervalSinceReferenceDate"]
 - !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
 - !private ["s27StringInterpolationProtocolP", "appendLiteral"]
 - !private ["s16TextOutputStreamP", "appendInterpolation"]
 - !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "timeIntervalSinceReferenceDate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "managedObjectContext"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "save"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "value"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "managedObjectContext"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "save"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setValue"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "value"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "timeIntervalSinceReferenceDate"]
 depends-nominal:
+- !private "s7CVarArgP"
 - !private "SL"
 - !private "s28CustomDebugStringConvertibleP"
 - !private "s17CustomReflectableP"
@@ -64,11 +186,24 @@ depends-nominal:
 - !private "SE"
 - "SQ"
 - !private "SH"
+- "14Differentiator16IdentifiableTypeP"
 - "20MyMVVMRxSwiftExample4MemoV"
+- !private "So8NSCodingP"
+- !private "So20NSFetchRequestResultP"
+- !private "So9NSLockingP"
+- !private "So15NSManagedObjectC"
+- !private "So22NSManagedObjectContextC"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "7Combine16ObservableObjectP"
+- "10RxCoreData11PersistableP"
+- !private "7RxSwift18ReactiveCompatibleP"
 - !private "10Foundation20ReferenceConvertibleP"
 - !private "s27StringInterpolationProtocolP"
 - !private "s16TextOutputStreamP"
 - !private "s30_CustomPlaygroundQuickLookableP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
 - !private "s21_ObjectiveCBridgeableP"
 depends-dynamic-lookup:
 depends-external:
@@ -100,14 +235,20 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Modules/RxCocoa.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCoreData/RxCoreData.framework/Modules/RxCoreData.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/Action/Action.framework/Modules/Action.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/Differentiator/Differentiator.framework/Modules/Differentiator.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxDataSources/RxDataSources.framework/Modules/RxDataSources.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/NSObject+Rx/NSObject_Rx.framework/Modules/NSObject_Rx.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxRelay/RxRelay.framework/Modules/RxRelay.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RX.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-umbrella.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCoreData/RxCoreData.framework/Headers/RxCoreData-umbrella.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/Action/Action.framework/Headers/Action-umbrella.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/Differentiator/Differentiator.framework/Headers/Differentiator-umbrella.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxDataSources/RxDataSources.framework/Headers/RxDataSources-umbrella.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/NSObject+Rx/NSObject_Rx.framework/Headers/NSObject+Rx-umbrella.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxRelay/RxRelay.framework/Headers/RxRelay-umbrella.h"
@@ -116,13 +257,19 @@ depends-external:
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoaRuntime.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXKVOObserver.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-Swift.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCoreData/RxCoreData.framework/Headers/RxCoreData-Swift.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/Action/Action.framework/Headers/Action-Swift.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/Differentiator/Differentiator.framework/Headers/Differentiator-Swift.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxDataSources/RxDataSources.framework/Headers/RxDataSources-Swift.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/NSObject+Rx/NSObject_Rx.framework/Headers/NSObject_Rx-Swift.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxRelay/RxRelay.framework/Headers/RxRelay-Swift.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXDelegateProxy.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Modules/module.modulemap"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCoreData/RxCoreData.framework/Modules/module.modulemap"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/Action/Action.framework/Modules/module.modulemap"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/Differentiator/Differentiator.framework/Modules/module.modulemap"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxDataSources/RxDataSources.framework/Modules/module.modulemap"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/module.modulemap"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/NSObject+Rx/NSObject_Rx.framework/Modules/module.modulemap"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxRelay/RxRelay.framework/Modules/module.modulemap"
@@ -140,4 +287,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "6b50560a1f1ab95c619d313de8f9c596"
+interface-hash: "aafc358c7ad6b58a72a4088ca15a0d9e"

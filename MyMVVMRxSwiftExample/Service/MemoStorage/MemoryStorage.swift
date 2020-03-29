@@ -11,15 +11,15 @@ import RxSwift
 
 class MemoryStorage: MemostorageType {
     private var list = [
-        Memo(content: "Hellow, RxSwift", insertData: Date().addingTimeInterval(-10)),
-        Memo(content: "Lorem Ispum", insertData: Date().addingTimeInterval(-20))
+        Memo(content: "Hellow, RxSwift", insertDate: Date().addingTimeInterval(-10)),
+        Memo(content: "Lorem Ispum", insertDate: Date().addingTimeInterval(-20))
     ]
     
     private lazy var store = BehaviorSubject<[Memo]>(value: list)
     
     @discardableResult
     func createMemo(content: String) -> Observable<Memo> {
-        let memo = Memo(content: content, insertData: Date().addingTimeInterval(-10))
+        let memo = Memo(content: content, insertDate: Date().addingTimeInterval(-10))
         list.insert(memo, at: 0)
         store.onNext(list)
         return Observable.just(memo)
@@ -32,7 +32,7 @@ class MemoryStorage: MemostorageType {
     
     @discardableResult
     func update(memo: Memo, content: String) -> Observable<Memo> {
-        let updateMemo = Memo(orignal: memo, updateContent: content)
+        let updateMemo = Memo(original: memo, updatedContent: content)
         
         if let index = list.firstIndex(where: { $0 == memo }) {
             list.remove(at: index)

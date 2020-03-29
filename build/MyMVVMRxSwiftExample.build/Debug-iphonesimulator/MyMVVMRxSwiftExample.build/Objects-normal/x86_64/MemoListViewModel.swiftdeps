@@ -13,171 +13,195 @@ depends-top-level:
 - "CommonViewModel"
 - "Memo"
 - !private "MemoComposeViewModel"
+- "MemoDetailViewModel"
 - "MemoListViewModel"
 - "Observable"
-- !private "Scene"
+- "Scene"
 - "String"
-- !private "StringLiteralType"
+- "StringLiteralType"
 - "Void"
 depends-member:
-- !private ["6ActionAAC", "init"]
-- !private ["s7CVarArgP", "Action"]
+- ["6ActionAAC", "init"]
+- ["s7CVarArgP", "Action"]
 - !private ["s7CVarArgP", "CocoaAction"]
 - !private ["s7CVarArgP", "MemoComposeViewModel"]
-- !private ["s7CVarArgP", "Scene"]
+- ["s7CVarArgP", "MemoDetailViewModel"]
+- ["s7CVarArgP", "Scene"]
 - ["s7CVarArgP", ""]
-- !private ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "performCancel"]
 - !private ["s7CVarArgP", "performUpdate"]
-- !private ["s7CVarArgP", "sceneCoordinator"]
-- !private ["s7CVarArgP", "storage"]
+- ["s7CVarArgP", "sceneCoordinator"]
+- ["s7CVarArgP", "storage"]
+- ["20MyMVVMRxSwiftExample15CommonViewModelC", "$__lazy_storage_$_detailAction"]
 - ["20MyMVVMRxSwiftExample15CommonViewModelC", "Action"]
 - ["20MyMVVMRxSwiftExample15CommonViewModelC", "CocoaAction"]
 - ["20MyMVVMRxSwiftExample15CommonViewModelC", "Memo"]
 - !private ["20MyMVVMRxSwiftExample15CommonViewModelC", "MemoComposeViewModel"]
+- ["20MyMVVMRxSwiftExample15CommonViewModelC", "MemoDetailViewModel"]
 - ["20MyMVVMRxSwiftExample15CommonViewModelC", "Observable"]
-- !private ["20MyMVVMRxSwiftExample15CommonViewModelC", "Scene"]
+- ["20MyMVVMRxSwiftExample15CommonViewModelC", "Scene"]
 - ["20MyMVVMRxSwiftExample15CommonViewModelC", "String"]
 - ["20MyMVVMRxSwiftExample15CommonViewModelC", "Void"]
 - ["20MyMVVMRxSwiftExample15CommonViewModelC", ""]
+- ["20MyMVVMRxSwiftExample15CommonViewModelC", "detailAction"]
 - ["20MyMVVMRxSwiftExample15CommonViewModelC", "init"]
 - ["20MyMVVMRxSwiftExample15CommonViewModelC", "makeCreateAction"]
 - ["20MyMVVMRxSwiftExample15CommonViewModelC", "memoList"]
 - ["20MyMVVMRxSwiftExample15CommonViewModelC", "performCancel"]
 - ["20MyMVVMRxSwiftExample15CommonViewModelC", "performUpdate"]
-- !private ["20MyMVVMRxSwiftExample15CommonViewModelC", "sceneCoordinator"]
-- !private ["20MyMVVMRxSwiftExample15CommonViewModelC", "storage"]
-- !private ["s28CustomDebugStringConvertibleP", "Action"]
+- ["20MyMVVMRxSwiftExample15CommonViewModelC", "sceneCoordinator"]
+- ["20MyMVVMRxSwiftExample15CommonViewModelC", "storage"]
+- ["s28CustomDebugStringConvertibleP", "Action"]
 - !private ["s28CustomDebugStringConvertibleP", "CocoaAction"]
 - !private ["s28CustomDebugStringConvertibleP", "MemoComposeViewModel"]
-- !private ["s28CustomDebugStringConvertibleP", "Scene"]
+- ["s28CustomDebugStringConvertibleP", "MemoDetailViewModel"]
+- ["s28CustomDebugStringConvertibleP", "Scene"]
 - ["s28CustomDebugStringConvertibleP", ""]
-- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "performCancel"]
 - !private ["s28CustomDebugStringConvertibleP", "performUpdate"]
-- !private ["s28CustomDebugStringConvertibleP", "sceneCoordinator"]
-- !private ["s28CustomDebugStringConvertibleP", "storage"]
-- !private ["s23CustomStringConvertibleP", "Action"]
+- ["s28CustomDebugStringConvertibleP", "sceneCoordinator"]
+- ["s28CustomDebugStringConvertibleP", "storage"]
+- ["s23CustomStringConvertibleP", "Action"]
 - !private ["s23CustomStringConvertibleP", "CocoaAction"]
 - !private ["s23CustomStringConvertibleP", "MemoComposeViewModel"]
-- !private ["s23CustomStringConvertibleP", "Scene"]
+- ["s23CustomStringConvertibleP", "MemoDetailViewModel"]
+- ["s23CustomStringConvertibleP", "Scene"]
 - ["s23CustomStringConvertibleP", ""]
-- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "performCancel"]
 - !private ["s23CustomStringConvertibleP", "performUpdate"]
-- !private ["s23CustomStringConvertibleP", "sceneCoordinator"]
-- !private ["s23CustomStringConvertibleP", "storage"]
-- !private ["SQ", "Action"]
+- ["s23CustomStringConvertibleP", "sceneCoordinator"]
+- ["s23CustomStringConvertibleP", "storage"]
+- ["SQ", "Action"]
 - !private ["SQ", "CocoaAction"]
 - !private ["SQ", "MemoComposeViewModel"]
-- !private ["SQ", "Scene"]
+- ["SQ", "MemoDetailViewModel"]
+- ["SQ", "Scene"]
 - ["SQ", ""]
-- !private ["SQ", "init"]
+- ["SQ", "init"]
 - !private ["SQ", "modal"]
 - !private ["SQ", "performCancel"]
 - !private ["SQ", "performUpdate"]
-- !private ["SQ", "sceneCoordinator"]
-- !private ["SQ", "storage"]
-- !private ["SH", "Action"]
+- ["SQ", "push"]
+- ["SQ", "sceneCoordinator"]
+- ["SQ", "storage"]
+- ["SH", "Action"]
 - !private ["SH", "CocoaAction"]
 - !private ["SH", "MemoComposeViewModel"]
-- !private ["SH", "Scene"]
+- ["SH", "MemoDetailViewModel"]
+- ["SH", "Scene"]
 - ["SH", ""]
-- !private ["SH", "init"]
+- ["SH", "init"]
 - !private ["SH", "modal"]
 - !private ["SH", "performCancel"]
 - !private ["SH", "performUpdate"]
-- !private ["SH", "sceneCoordinator"]
-- !private ["SH", "storage"]
+- ["SH", "push"]
+- ["SH", "sceneCoordinator"]
+- ["SH", "storage"]
 - !private ["20MyMVVMRxSwiftExample20MemoComposeViewModelC", "init"]
+- ["20MyMVVMRxSwiftExample19MemoDetailViewModelC", "init"]
+- !private ["20MyMVVMRxSwiftExample17MemoListViewModelC", "$__lazy_storage_$_detailAction"]
 - ["20MyMVVMRxSwiftExample17MemoListViewModelC", "Action"]
 - ["20MyMVVMRxSwiftExample17MemoListViewModelC", "CocoaAction"]
 - ["20MyMVVMRxSwiftExample17MemoListViewModelC", "Memo"]
 - !private ["20MyMVVMRxSwiftExample17MemoListViewModelC", "MemoComposeViewModel"]
+- ["20MyMVVMRxSwiftExample17MemoListViewModelC", "MemoDetailViewModel"]
 - ["20MyMVVMRxSwiftExample17MemoListViewModelC", "Observable"]
-- !private ["20MyMVVMRxSwiftExample17MemoListViewModelC", "Scene"]
+- ["20MyMVVMRxSwiftExample17MemoListViewModelC", "Scene"]
 - ["20MyMVVMRxSwiftExample17MemoListViewModelC", "String"]
 - ["20MyMVVMRxSwiftExample17MemoListViewModelC", "Void"]
 - ["20MyMVVMRxSwiftExample17MemoListViewModelC", "deinit"]
+- ["20MyMVVMRxSwiftExample17MemoListViewModelC", "detailAction"]
 - ["20MyMVVMRxSwiftExample17MemoListViewModelC", "init"]
 - ["20MyMVVMRxSwiftExample17MemoListViewModelC", "makeCreateAction"]
 - ["20MyMVVMRxSwiftExample17MemoListViewModelC", "memoList"]
 - ["20MyMVVMRxSwiftExample17MemoListViewModelC", "performCancel"]
 - ["20MyMVVMRxSwiftExample17MemoListViewModelC", "performUpdate"]
-- !private ["20MyMVVMRxSwiftExample17MemoListViewModelC", "sceneCoordinator"]
-- !private ["20MyMVVMRxSwiftExample17MemoListViewModelC", "storage"]
+- ["20MyMVVMRxSwiftExample17MemoListViewModelC", "sceneCoordinator"]
+- ["20MyMVVMRxSwiftExample17MemoListViewModelC", "storage"]
 - !private ["20MyMVVMRxSwiftExample15MemostorageTypeP", "createMemo"]
 - !private ["20MyMVVMRxSwiftExample15MemostorageTypeP", "delete"]
 - !private ["20MyMVVMRxSwiftExample15MemostorageTypeP", "memoList"]
 - !private ["20MyMVVMRxSwiftExample15MemostorageTypeP", "update"]
+- ["So8NSObjectC", "$__lazy_storage_$_detailAction"]
 - ["So8NSObjectC", "Action"]
 - ["So8NSObjectC", "CocoaAction"]
 - ["So8NSObjectC", "Memo"]
 - !private ["So8NSObjectC", "MemoComposeViewModel"]
+- ["So8NSObjectC", "MemoDetailViewModel"]
 - ["So8NSObjectC", "Observable"]
-- !private ["So8NSObjectC", "Scene"]
+- ["So8NSObjectC", "Scene"]
 - ["So8NSObjectC", "String"]
 - ["So8NSObjectC", "Void"]
+- ["So8NSObjectC", "detailAction"]
 - ["So8NSObjectC", "makeCreateAction"]
 - ["So8NSObjectC", "memoList"]
 - ["So8NSObjectC", "performCancel"]
 - ["So8NSObjectC", "performUpdate"]
-- !private ["So8NSObjectC", "sceneCoordinator"]
-- !private ["So8NSObjectC", "storage"]
-- !private ["So8NSObjectP", "Action"]
+- ["So8NSObjectC", "sceneCoordinator"]
+- ["So8NSObjectC", "storage"]
+- ["So8NSObjectP", "Action"]
 - !private ["So8NSObjectP", "CocoaAction"]
 - !private ["So8NSObjectP", "MemoComposeViewModel"]
-- !private ["So8NSObjectP", "Scene"]
+- ["So8NSObjectP", "MemoDetailViewModel"]
+- ["So8NSObjectP", "Scene"]
 - ["So8NSObjectP", ""]
-- !private ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "init"]
 - !private ["So8NSObjectP", "performCancel"]
 - !private ["So8NSObjectP", "performUpdate"]
-- !private ["So8NSObjectP", "sceneCoordinator"]
-- !private ["So8NSObjectP", "storage"]
+- ["So8NSObjectP", "sceneCoordinator"]
+- ["So8NSObjectP", "storage"]
 - !private ["7RxSwift10ObservableC", "flatMap"]
-- !private ["7RxSwift10ObservableC", "map"]
-- !private ["7RxSwift25ObservableConvertibleTypeP", "asObservable"]
+- ["7RxSwift10ObservableC", "map"]
+- ["7RxSwift25ObservableConvertibleTypeP", "asObservable"]
 - !private ["7RxSwift25ObservableConvertibleTypeP", "flatMap"]
-- !private ["7RxSwift25ObservableConvertibleTypeP", "map"]
+- ["7RxSwift25ObservableConvertibleTypeP", "map"]
 - !private ["7RxSwift14ObservableTypeP", "flatMap"]
-- !private ["7RxSwift14ObservableTypeP", "map"]
-- !private ["7RxSwift17PrimitiveSequenceV", "asObservable"]
-- !private ["7RxSwift21PrimitiveSequenceTypeP", "asObservable"]
-- !private ["7RxSwift18ReactiveCompatibleP", "Action"]
+- ["7RxSwift14ObservableTypeP", "map"]
+- ["7RxSwift17PrimitiveSequenceV", "asObservable"]
+- ["7RxSwift21PrimitiveSequenceTypeP", "asObservable"]
+- ["7RxSwift18ReactiveCompatibleP", "Action"]
 - !private ["7RxSwift18ReactiveCompatibleP", "CocoaAction"]
 - !private ["7RxSwift18ReactiveCompatibleP", "MemoComposeViewModel"]
-- !private ["7RxSwift18ReactiveCompatibleP", "Scene"]
+- ["7RxSwift18ReactiveCompatibleP", "MemoDetailViewModel"]
+- ["7RxSwift18ReactiveCompatibleP", "Scene"]
 - ["7RxSwift18ReactiveCompatibleP", ""]
-- !private ["7RxSwift18ReactiveCompatibleP", "init"]
+- ["7RxSwift18ReactiveCompatibleP", "init"]
 - !private ["7RxSwift18ReactiveCompatibleP", "performCancel"]
 - !private ["7RxSwift18ReactiveCompatibleP", "performUpdate"]
-- !private ["7RxSwift18ReactiveCompatibleP", "sceneCoordinator"]
-- !private ["7RxSwift18ReactiveCompatibleP", "storage"]
+- ["7RxSwift18ReactiveCompatibleP", "sceneCoordinator"]
+- ["7RxSwift18ReactiveCompatibleP", "storage"]
 - !private ["20MyMVVMRxSwiftExample5SceneO", "compose"]
-- !private ["20MyMVVMRxSwiftExample20SceneCoordinatorTypeP", "transition"]
+- ["20MyMVVMRxSwiftExample5SceneO", "detail"]
+- ["20MyMVVMRxSwiftExample20SceneCoordinatorTypeP", "transition"]
 - !private ["20MyMVVMRxSwiftExample15TransitionStyleO", "modal"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "Action"]
+- ["20MyMVVMRxSwiftExample15TransitionStyleO", "push"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Action"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "CocoaAction"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "MemoComposeViewModel"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "Scene"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "MemoDetailViewModel"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Scene"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "performCancel"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "performUpdate"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "sceneCoordinator"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "storage"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Action"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "sceneCoordinator"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "storage"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Action"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CocoaAction"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "MemoComposeViewModel"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Scene"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "MemoDetailViewModel"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Scene"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "performCancel"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "performUpdate"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sceneCoordinator"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "storage"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sceneCoordinator"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "storage"]
 depends-nominal:
-- !private "6ActionAAC"
+- "6ActionAAC"
 - "s7CVarArgP"
 - "20MyMVVMRxSwiftExample15CommonViewModelC"
 - "s28CustomDebugStringConvertibleP"
@@ -185,19 +209,20 @@ depends-nominal:
 - "SQ"
 - "SH"
 - !private "20MyMVVMRxSwiftExample20MemoComposeViewModelC"
+- "20MyMVVMRxSwiftExample19MemoDetailViewModelC"
 - "20MyMVVMRxSwiftExample17MemoListViewModelC"
 - !private "20MyMVVMRxSwiftExample15MemostorageTypeP"
 - "So8NSObjectC"
 - "So8NSObjectP"
-- !private "7RxSwift10ObservableC"
-- !private "7RxSwift25ObservableConvertibleTypeP"
-- !private "7RxSwift14ObservableTypeP"
-- !private "7RxSwift17PrimitiveSequenceV"
-- !private "7RxSwift21PrimitiveSequenceTypeP"
+- "7RxSwift10ObservableC"
+- "7RxSwift25ObservableConvertibleTypeP"
+- "7RxSwift14ObservableTypeP"
+- "7RxSwift17PrimitiveSequenceV"
+- "7RxSwift21PrimitiveSequenceTypeP"
 - "7RxSwift18ReactiveCompatibleP"
-- !private "20MyMVVMRxSwiftExample5SceneO"
-- !private "20MyMVVMRxSwiftExample20SceneCoordinatorTypeP"
-- !private "20MyMVVMRxSwiftExample15TransitionStyleO"
+- "20MyMVVMRxSwiftExample5SceneO"
+- "20MyMVVMRxSwiftExample20SceneCoordinatorTypeP"
+- "20MyMVVMRxSwiftExample15TransitionStyleO"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - "10Foundation37_KeyValueCodingAndObservingPublishingP"
 depends-dynamic-lookup:
@@ -230,14 +255,20 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Modules/RxCocoa.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCoreData/RxCoreData.framework/Modules/RxCoreData.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/Action/Action.framework/Modules/Action.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/Differentiator/Differentiator.framework/Modules/Differentiator.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxDataSources/RxDataSources.framework/Modules/RxDataSources.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/NSObject+Rx/NSObject_Rx.framework/Modules/NSObject_Rx.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxRelay/RxRelay.framework/Modules/RxRelay.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RX.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-umbrella.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCoreData/RxCoreData.framework/Headers/RxCoreData-umbrella.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/Action/Action.framework/Headers/Action-umbrella.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/Differentiator/Differentiator.framework/Headers/Differentiator-umbrella.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxDataSources/RxDataSources.framework/Headers/RxDataSources-umbrella.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/NSObject+Rx/NSObject_Rx.framework/Headers/NSObject+Rx-umbrella.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxRelay/RxRelay.framework/Headers/RxRelay-umbrella.h"
@@ -246,13 +277,19 @@ depends-external:
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoaRuntime.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXKVOObserver.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-Swift.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCoreData/RxCoreData.framework/Headers/RxCoreData-Swift.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/Action/Action.framework/Headers/Action-Swift.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/Differentiator/Differentiator.framework/Headers/Differentiator-Swift.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxDataSources/RxDataSources.framework/Headers/RxDataSources-Swift.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/NSObject+Rx/NSObject_Rx.framework/Headers/NSObject_Rx-Swift.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxRelay/RxRelay.framework/Headers/RxRelay-Swift.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXDelegateProxy.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Modules/module.modulemap"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCoreData/RxCoreData.framework/Modules/module.modulemap"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/Action/Action.framework/Modules/module.modulemap"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/Differentiator/Differentiator.framework/Modules/module.modulemap"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxDataSources/RxDataSources.framework/Modules/module.modulemap"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/module.modulemap"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/NSObject+Rx/NSObject_Rx.framework/Modules/module.modulemap"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxRelay/RxRelay.framework/Modules/module.modulemap"
@@ -270,4 +307,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "efcb560e0ad6b32a94fce451e688aadf"
+interface-hash: "c82f0e3d417c6320e9156fafb83e5513"

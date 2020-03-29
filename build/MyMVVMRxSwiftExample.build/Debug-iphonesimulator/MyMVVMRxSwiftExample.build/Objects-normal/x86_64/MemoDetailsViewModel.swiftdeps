@@ -7,208 +7,419 @@ provides-member:
 - ["20MyMVVMRxSwiftExample19MemoDetailViewModelC", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- "Action"
 - "AssignmentPrecedence"
 - "BehaviorSubject"
+- "BooleanLiteralType"
+- "CocoaAction"
 - "CommonViewModel"
 - "DateFormatter"
 - !private "FloatLiteralType"
 - !private "IntegerLiteralType"
 - "Locale"
 - "Memo"
+- !private "MemoComposeViewModel"
 - "MemoDetailViewModel"
 - "MemostorageType"
+- !private "Observable"
+- !private "Scene"
 - "SceneCoordinatorType"
 - "String"
 - "StringLiteralType"
-- !private "content"
+- "Void"
 depends-member:
+- ["6ActionAAC", "init"]
+- !private ["7RxSwift15BehaviorSubjectC", "init"]
+- !private ["7RxSwift15BehaviorSubjectC", "onNext"]
+- !private ["s7CVarArgP", "Action"]
 - !private ["s7CVarArgP", "BehaviorSubject"]
+- ["s7CVarArgP", "CocoaAction"]
 - ["s7CVarArgP", "DateFormatter"]
 - ["s7CVarArgP", "Locale"]
+- !private ["s7CVarArgP", "MemoComposeViewModel"]
+- !private ["s7CVarArgP", "Observable"]
+- !private ["s7CVarArgP", "Scene"]
 - ["s7CVarArgP", ""]
-- !private ["s7CVarArgP", "content"]
+- !private ["s7CVarArgP", "contents"]
 - ["s7CVarArgP", "dateStyle"]
 - !private ["s7CVarArgP", "formatter"]
 - ["s7CVarArgP", "init"]
 - ["s7CVarArgP", "locale"]
 - !private ["s7CVarArgP", "memo"]
+- !private ["s7CVarArgP", "performUpdate"]
+- !private ["s7CVarArgP", "rx"]
+- ["s7CVarArgP", "sceneCoordinator"]
+- !private ["s7CVarArgP", "storage"]
+- !private ["s7CVarArgP", "string"]
 - ["s7CVarArgP", "timeStyle"]
+- !private ["7RxSwift10CancelableP", "init"]
+- !private ["7RxSwift10CancelableP", "onNext"]
+- ["20MyMVVMRxSwiftExample15CommonViewModelC", "$__lazy_storage_$_popAction"]
+- ["20MyMVVMRxSwiftExample15CommonViewModelC", "Action"]
 - ["20MyMVVMRxSwiftExample15CommonViewModelC", "BehaviorSubject"]
+- ["20MyMVVMRxSwiftExample15CommonViewModelC", "CocoaAction"]
 - ["20MyMVVMRxSwiftExample15CommonViewModelC", "DateFormatter"]
 - ["20MyMVVMRxSwiftExample15CommonViewModelC", "Locale"]
 - ["20MyMVVMRxSwiftExample15CommonViewModelC", "Memo"]
+- !private ["20MyMVVMRxSwiftExample15CommonViewModelC", "MemoComposeViewModel"]
 - ["20MyMVVMRxSwiftExample15CommonViewModelC", "MemostorageType"]
+- !private ["20MyMVVMRxSwiftExample15CommonViewModelC", "Observable"]
+- !private ["20MyMVVMRxSwiftExample15CommonViewModelC", "Scene"]
 - ["20MyMVVMRxSwiftExample15CommonViewModelC", "SceneCoordinatorType"]
 - ["20MyMVVMRxSwiftExample15CommonViewModelC", "String"]
+- ["20MyMVVMRxSwiftExample15CommonViewModelC", "Void"]
 - ["20MyMVVMRxSwiftExample15CommonViewModelC", ""]
-- !private ["20MyMVVMRxSwiftExample15CommonViewModelC", "content"]
 - ["20MyMVVMRxSwiftExample15CommonViewModelC", "contents"]
 - ["20MyMVVMRxSwiftExample15CommonViewModelC", "formatter"]
 - ["20MyMVVMRxSwiftExample15CommonViewModelC", "init"]
+- ["20MyMVVMRxSwiftExample15CommonViewModelC", "makeDeleteAction"]
+- ["20MyMVVMRxSwiftExample15CommonViewModelC", "makeEditAction"]
 - ["20MyMVVMRxSwiftExample15CommonViewModelC", "memo"]
+- ["20MyMVVMRxSwiftExample15CommonViewModelC", "performUpdate"]
+- ["20MyMVVMRxSwiftExample15CommonViewModelC", "popAction"]
+- !private ["20MyMVVMRxSwiftExample15CommonViewModelC", "rx"]
+- ["20MyMVVMRxSwiftExample15CommonViewModelC", "sceneCoordinator"]
+- !private ["20MyMVVMRxSwiftExample15CommonViewModelC", "storage"]
+- !private ["s28CustomDebugStringConvertibleP", "Action"]
 - !private ["s28CustomDebugStringConvertibleP", "BehaviorSubject"]
+- ["s28CustomDebugStringConvertibleP", "CocoaAction"]
 - ["s28CustomDebugStringConvertibleP", "DateFormatter"]
 - ["s28CustomDebugStringConvertibleP", "Locale"]
+- !private ["s28CustomDebugStringConvertibleP", "MemoComposeViewModel"]
+- !private ["s28CustomDebugStringConvertibleP", "Observable"]
+- !private ["s28CustomDebugStringConvertibleP", "Scene"]
 - ["s28CustomDebugStringConvertibleP", ""]
-- !private ["s28CustomDebugStringConvertibleP", "content"]
+- !private ["s28CustomDebugStringConvertibleP", "contents"]
 - ["s28CustomDebugStringConvertibleP", "dateStyle"]
 - !private ["s28CustomDebugStringConvertibleP", "formatter"]
 - ["s28CustomDebugStringConvertibleP", "init"]
 - ["s28CustomDebugStringConvertibleP", "locale"]
 - !private ["s28CustomDebugStringConvertibleP", "memo"]
+- !private ["s28CustomDebugStringConvertibleP", "performUpdate"]
+- !private ["s28CustomDebugStringConvertibleP", "rx"]
+- ["s28CustomDebugStringConvertibleP", "sceneCoordinator"]
+- !private ["s28CustomDebugStringConvertibleP", "storage"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
 - ["s28CustomDebugStringConvertibleP", "timeStyle"]
 - ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "Action"]
 - !private ["s23CustomStringConvertibleP", "BehaviorSubject"]
+- ["s23CustomStringConvertibleP", "CocoaAction"]
 - ["s23CustomStringConvertibleP", "DateFormatter"]
 - ["s23CustomStringConvertibleP", "Locale"]
+- !private ["s23CustomStringConvertibleP", "MemoComposeViewModel"]
+- !private ["s23CustomStringConvertibleP", "Observable"]
+- !private ["s23CustomStringConvertibleP", "Scene"]
 - ["s23CustomStringConvertibleP", ""]
-- !private ["s23CustomStringConvertibleP", "content"]
+- !private ["s23CustomStringConvertibleP", "contents"]
 - ["s23CustomStringConvertibleP", "dateStyle"]
 - !private ["s23CustomStringConvertibleP", "formatter"]
 - ["s23CustomStringConvertibleP", "init"]
 - ["s23CustomStringConvertibleP", "locale"]
 - !private ["s23CustomStringConvertibleP", "memo"]
+- !private ["s23CustomStringConvertibleP", "performUpdate"]
+- !private ["s23CustomStringConvertibleP", "rx"]
+- ["s23CustomStringConvertibleP", "sceneCoordinator"]
+- !private ["s23CustomStringConvertibleP", "storage"]
+- !private ["s23CustomStringConvertibleP", "string"]
 - ["s23CustomStringConvertibleP", "timeStyle"]
 - ["So15NSDateFormatterC", "dateStyle"]
 - ["So15NSDateFormatterC", "init"]
 - ["So15NSDateFormatterC", "locale"]
+- !private ["So15NSDateFormatterC", "string"]
 - ["So15NSDateFormatterC", "timeStyle"]
 - ["Se", "init"]
+- !private ["7RxSwift10DisposableP", "disposed"]
+- !private ["7RxSwift10DisposableP", "init"]
+- !private ["7RxSwift10DisposableP", "onNext"]
 - ["SE", "init"]
+- !private ["SQ", "Action"]
 - !private ["SQ", "BehaviorSubject"]
+- ["SQ", "CocoaAction"]
 - ["SQ", "DateFormatter"]
 - ["SQ", "Locale"]
+- !private ["SQ", "MemoComposeViewModel"]
+- !private ["SQ", "Observable"]
+- !private ["SQ", "Scene"]
 - ["SQ", ""]
 - !private ["SQ", "content"]
+- !private ["SQ", "contents"]
 - ["SQ", "dateStyle"]
 - !private ["SQ", "formatter"]
 - ["SQ", "init"]
+- !private ["SQ", "insertDate"]
 - ["SQ", "locale"]
 - ["SQ", "medium"]
 - !private ["SQ", "memo"]
+- !private ["SQ", "modal"]
+- !private ["SQ", "performUpdate"]
+- !private ["SQ", "rx"]
+- ["SQ", "sceneCoordinator"]
+- !private ["SQ", "storage"]
+- !private ["SQ", "string"]
 - ["SQ", "timeStyle"]
 - ["So11NSFormatterC", "dateStyle"]
 - ["So11NSFormatterC", "init"]
 - ["So11NSFormatterC", "locale"]
+- !private ["So11NSFormatterC", "string"]
 - ["So11NSFormatterC", "timeStyle"]
+- !private ["SH", "Action"]
 - !private ["SH", "BehaviorSubject"]
+- ["SH", "CocoaAction"]
 - ["SH", "DateFormatter"]
 - ["SH", "Locale"]
+- !private ["SH", "MemoComposeViewModel"]
+- !private ["SH", "Observable"]
+- !private ["SH", "Scene"]
 - ["SH", ""]
-- !private ["SH", "content"]
+- !private ["SH", "contents"]
 - ["SH", "dateStyle"]
 - !private ["SH", "formatter"]
 - ["SH", "init"]
 - ["SH", "locale"]
 - ["SH", "medium"]
 - !private ["SH", "memo"]
+- !private ["SH", "modal"]
+- !private ["SH", "performUpdate"]
+- !private ["SH", "rx"]
+- ["SH", "sceneCoordinator"]
+- !private ["SH", "storage"]
+- !private ["SH", "string"]
 - ["SH", "timeStyle"]
+- !private ["14Differentiator16IdentifiableTypeP", "content"]
+- !private ["14Differentiator16IdentifiableTypeP", "insertDate"]
 - ["10Foundation6LocaleV", "init"]
+- !private ["20MyMVVMRxSwiftExample4MemoV", "content"]
+- !private ["20MyMVVMRxSwiftExample4MemoV", "insertDate"]
+- !private ["20MyMVVMRxSwiftExample20MemoComposeViewModelC", "init"]
+- !private ["20MyMVVMRxSwiftExample19MemoDetailViewModelC", "$__lazy_storage_$_popAction"]
+- ["20MyMVVMRxSwiftExample19MemoDetailViewModelC", "Action"]
 - ["20MyMVVMRxSwiftExample19MemoDetailViewModelC", "BehaviorSubject"]
+- ["20MyMVVMRxSwiftExample19MemoDetailViewModelC", "CocoaAction"]
 - ["20MyMVVMRxSwiftExample19MemoDetailViewModelC", "DateFormatter"]
 - ["20MyMVVMRxSwiftExample19MemoDetailViewModelC", "Locale"]
 - ["20MyMVVMRxSwiftExample19MemoDetailViewModelC", "Memo"]
+- !private ["20MyMVVMRxSwiftExample19MemoDetailViewModelC", "MemoComposeViewModel"]
 - ["20MyMVVMRxSwiftExample19MemoDetailViewModelC", "MemostorageType"]
+- !private ["20MyMVVMRxSwiftExample19MemoDetailViewModelC", "Observable"]
+- !private ["20MyMVVMRxSwiftExample19MemoDetailViewModelC", "Scene"]
 - ["20MyMVVMRxSwiftExample19MemoDetailViewModelC", "SceneCoordinatorType"]
 - ["20MyMVVMRxSwiftExample19MemoDetailViewModelC", "String"]
-- !private ["20MyMVVMRxSwiftExample19MemoDetailViewModelC", "content"]
+- ["20MyMVVMRxSwiftExample19MemoDetailViewModelC", "Void"]
 - ["20MyMVVMRxSwiftExample19MemoDetailViewModelC", "contents"]
+- ["20MyMVVMRxSwiftExample19MemoDetailViewModelC", "deinit"]
 - !private ["20MyMVVMRxSwiftExample19MemoDetailViewModelC", "formatter"]
 - ["20MyMVVMRxSwiftExample19MemoDetailViewModelC", "init"]
+- ["20MyMVVMRxSwiftExample19MemoDetailViewModelC", "makeDeleteAction"]
+- ["20MyMVVMRxSwiftExample19MemoDetailViewModelC", "makeEditAction"]
 - ["20MyMVVMRxSwiftExample19MemoDetailViewModelC", "memo"]
+- ["20MyMVVMRxSwiftExample19MemoDetailViewModelC", "performUpdate"]
+- ["20MyMVVMRxSwiftExample19MemoDetailViewModelC", "popAction"]
+- !private ["20MyMVVMRxSwiftExample19MemoDetailViewModelC", "rx"]
+- ["20MyMVVMRxSwiftExample19MemoDetailViewModelC", "sceneCoordinator"]
+- !private ["20MyMVVMRxSwiftExample19MemoDetailViewModelC", "storage"]
+- !private ["20MyMVVMRxSwiftExample15MemostorageTypeP", "delete"]
+- !private ["20MyMVVMRxSwiftExample15MemostorageTypeP", "update"]
 - ["So8NSCodingP", "dateStyle"]
 - ["So8NSCodingP", "init"]
 - ["So8NSCodingP", "locale"]
+- !private ["So8NSCodingP", "string"]
 - ["So8NSCodingP", "timeStyle"]
 - ["So9NSCopyingP", "dateStyle"]
 - ["So9NSCopyingP", "init"]
 - ["So9NSCopyingP", "locale"]
+- !private ["So9NSCopyingP", "string"]
 - ["So9NSCopyingP", "timeStyle"]
+- ["So8NSObjectC", "$__lazy_storage_$_popAction"]
+- ["So8NSObjectC", "Action"]
 - ["So8NSObjectC", "BehaviorSubject"]
+- ["So8NSObjectC", "CocoaAction"]
 - ["So8NSObjectC", "DateFormatter"]
 - ["So8NSObjectC", "Locale"]
 - ["So8NSObjectC", "Memo"]
+- !private ["So8NSObjectC", "MemoComposeViewModel"]
 - ["So8NSObjectC", "MemostorageType"]
+- !private ["So8NSObjectC", "Observable"]
+- !private ["So8NSObjectC", "Scene"]
 - ["So8NSObjectC", "SceneCoordinatorType"]
 - ["So8NSObjectC", "String"]
-- !private ["So8NSObjectC", "content"]
+- ["So8NSObjectC", "Void"]
 - ["So8NSObjectC", "contents"]
 - ["So8NSObjectC", "dateStyle"]
 - ["So8NSObjectC", "formatter"]
 - ["So8NSObjectC", "init"]
 - ["So8NSObjectC", "locale"]
+- ["So8NSObjectC", "makeDeleteAction"]
+- ["So8NSObjectC", "makeEditAction"]
 - ["So8NSObjectC", "memo"]
+- ["So8NSObjectC", "performUpdate"]
+- ["So8NSObjectC", "popAction"]
+- !private ["So8NSObjectC", "rx"]
+- ["So8NSObjectC", "sceneCoordinator"]
+- !private ["So8NSObjectC", "storage"]
+- !private ["So8NSObjectC", "string"]
 - ["So8NSObjectC", "timeStyle"]
+- !private ["So8NSObjectP", "Action"]
 - !private ["So8NSObjectP", "BehaviorSubject"]
+- ["So8NSObjectP", "CocoaAction"]
 - ["So8NSObjectP", "DateFormatter"]
 - ["So8NSObjectP", "Locale"]
+- !private ["So8NSObjectP", "MemoComposeViewModel"]
+- !private ["So8NSObjectP", "Observable"]
+- !private ["So8NSObjectP", "Scene"]
 - ["So8NSObjectP", ""]
-- !private ["So8NSObjectP", "content"]
+- !private ["So8NSObjectP", "contents"]
 - ["So8NSObjectP", "dateStyle"]
 - !private ["So8NSObjectP", "formatter"]
 - ["So8NSObjectP", "init"]
 - ["So8NSObjectP", "locale"]
 - !private ["So8NSObjectP", "memo"]
+- !private ["So8NSObjectP", "performUpdate"]
+- !private ["So8NSObjectP", "rx"]
+- ["So8NSObjectP", "sceneCoordinator"]
+- !private ["So8NSObjectP", "storage"]
+- !private ["So8NSObjectP", "string"]
 - ["So8NSObjectP", "timeStyle"]
+- !private ["7RxSwift10ObservableC", "empty"]
+- ["7RxSwift10ObservableC", "map"]
+- !private ["7RxSwift10ObservableC", "onNext"]
+- !private ["7RxSwift10ObservableC", "subscribe"]
+- ["7RxSwift25ObservableConvertibleTypeP", "asObservable"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "empty"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "init"]
+- ["7RxSwift25ObservableConvertibleTypeP", "map"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "onNext"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "subscribe"]
+- !private ["7RxSwift14ObservableTypeP", "empty"]
+- !private ["7RxSwift14ObservableTypeP", "init"]
+- ["7RxSwift14ObservableTypeP", "map"]
+- !private ["7RxSwift14ObservableTypeP", "onNext"]
+- !private ["7RxSwift14ObservableTypeP", "subscribe"]
+- !private ["7RxSwift12ObserverTypeP", "init"]
+- !private ["7RxSwift12ObserverTypeP", "onNext"]
+- !private ["10RxCoreData11PersistableP", "content"]
+- !private ["10RxCoreData11PersistableP", "insertDate"]
+- ["7RxSwift17PrimitiveSequenceV", "asObservable"]
+- ["7RxSwift21PrimitiveSequenceTypeP", "asObservable"]
 - ["SY", "medium"]
+- !private ["7RxSwift8ReactiveV", "disposeBag"]
+- !private ["7RxSwift18ReactiveCompatibleP", "Action"]
 - !private ["7RxSwift18ReactiveCompatibleP", "BehaviorSubject"]
+- ["7RxSwift18ReactiveCompatibleP", "CocoaAction"]
 - ["7RxSwift18ReactiveCompatibleP", "DateFormatter"]
 - ["7RxSwift18ReactiveCompatibleP", "Locale"]
+- !private ["7RxSwift18ReactiveCompatibleP", "MemoComposeViewModel"]
+- !private ["7RxSwift18ReactiveCompatibleP", "Observable"]
+- !private ["7RxSwift18ReactiveCompatibleP", "Scene"]
 - ["7RxSwift18ReactiveCompatibleP", ""]
-- !private ["7RxSwift18ReactiveCompatibleP", "content"]
+- !private ["7RxSwift18ReactiveCompatibleP", "contents"]
 - ["7RxSwift18ReactiveCompatibleP", "dateStyle"]
 - !private ["7RxSwift18ReactiveCompatibleP", "formatter"]
 - ["7RxSwift18ReactiveCompatibleP", "init"]
 - ["7RxSwift18ReactiveCompatibleP", "locale"]
 - !private ["7RxSwift18ReactiveCompatibleP", "memo"]
+- !private ["7RxSwift18ReactiveCompatibleP", "performUpdate"]
+- !private ["7RxSwift18ReactiveCompatibleP", "rx"]
+- ["7RxSwift18ReactiveCompatibleP", "sceneCoordinator"]
+- !private ["7RxSwift18ReactiveCompatibleP", "storage"]
+- !private ["7RxSwift18ReactiveCompatibleP", "string"]
 - ["7RxSwift18ReactiveCompatibleP", "timeStyle"]
 - ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["20MyMVVMRxSwiftExample5SceneO", "compose"]
+- ["20MyMVVMRxSwiftExample20SceneCoordinatorTypeP", "close"]
+- !private ["20MyMVVMRxSwiftExample20SceneCoordinatorTypeP", "transition"]
 - ["So20NSDateFormatterStyleV", "medium"]
+- !private ["7RxSwift11SubjectTypeP", "init"]
+- !private ["7RxSwift11SubjectTypeP", "onNext"]
+- !private ["7RxSwift27SynchronizedUnsubscribeTypeP", "init"]
+- !private ["7RxSwift27SynchronizedUnsubscribeTypeP", "onNext"]
+- !private ["20MyMVVMRxSwiftExample15TransitionStyleO", "modal"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Action"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "BehaviorSubject"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "CocoaAction"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "DateFormatter"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "Locale"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MemoComposeViewModel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Observable"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Scene"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "content"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contents"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "dateStyle"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "formatter"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "locale"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "memo"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "performUpdate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rx"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "sceneCoordinator"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "storage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "string"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "timeStyle"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Action"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "BehaviorSubject"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CocoaAction"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "DateFormatter"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Locale"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "MemoComposeViewModel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Observable"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Scene"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "content"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "contents"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dateStyle"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "formatter"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "locale"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "memo"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "performUpdate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "rx"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sceneCoordinator"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "storage"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "string"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "timeStyle"]
 - ["s21_ObjectiveCBridgeableP", "init"]
 depends-nominal:
+- "6ActionAAC"
+- !private "7RxSwift15BehaviorSubjectC"
 - "s7CVarArgP"
+- !private "7RxSwift10CancelableP"
 - "20MyMVVMRxSwiftExample15CommonViewModelC"
 - "s28CustomDebugStringConvertibleP"
 - "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
 - "So15NSDateFormatterC"
 - "Se"
+- !private "7RxSwift10DisposableP"
 - "SE"
 - "SQ"
 - "So11NSFormatterC"
 - "SH"
+- !private "14Differentiator16IdentifiableTypeP"
 - "10Foundation6LocaleV"
+- !private "20MyMVVMRxSwiftExample4MemoV"
+- !private "20MyMVVMRxSwiftExample20MemoComposeViewModelC"
 - "20MyMVVMRxSwiftExample19MemoDetailViewModelC"
+- !private "20MyMVVMRxSwiftExample15MemostorageTypeP"
 - "So8NSCodingP"
 - "So9NSCopyingP"
 - "So8NSObjectC"
 - "So8NSObjectP"
+- "7RxSwift10ObservableC"
+- "7RxSwift25ObservableConvertibleTypeP"
+- "7RxSwift14ObservableTypeP"
+- !private "7RxSwift12ObserverTypeP"
+- !private "10RxCoreData11PersistableP"
+- "7RxSwift17PrimitiveSequenceV"
+- "7RxSwift21PrimitiveSequenceTypeP"
 - "SY"
+- !private "7RxSwift8ReactiveV"
 - "7RxSwift18ReactiveCompatibleP"
 - "10Foundation20ReferenceConvertibleP"
+- !private "20MyMVVMRxSwiftExample5SceneO"
+- "20MyMVVMRxSwiftExample20SceneCoordinatorTypeP"
 - "So20NSDateFormatterStyleV"
+- !private "7RxSwift11SubjectTypeP"
+- !private "7RxSwift27SynchronizedUnsubscribeTypeP"
+- !private "20MyMVVMRxSwiftExample15TransitionStyleO"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - "10Foundation37_KeyValueCodingAndObservingPublishingP"
 - "s21_ObjectiveCBridgeableP"
@@ -242,14 +453,20 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Modules/RxCocoa.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCoreData/RxCoreData.framework/Modules/RxCoreData.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/Action/Action.framework/Modules/Action.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/Differentiator/Differentiator.framework/Modules/Differentiator.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxDataSources/RxDataSources.framework/Modules/RxDataSources.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/NSObject+Rx/NSObject_Rx.framework/Modules/NSObject_Rx.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxRelay/RxRelay.framework/Modules/RxRelay.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RX.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-umbrella.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCoreData/RxCoreData.framework/Headers/RxCoreData-umbrella.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/Action/Action.framework/Headers/Action-umbrella.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/Differentiator/Differentiator.framework/Headers/Differentiator-umbrella.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxDataSources/RxDataSources.framework/Headers/RxDataSources-umbrella.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/NSObject+Rx/NSObject_Rx.framework/Headers/NSObject+Rx-umbrella.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxRelay/RxRelay.framework/Headers/RxRelay-umbrella.h"
@@ -258,13 +475,19 @@ depends-external:
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoaRuntime.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXKVOObserver.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-Swift.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCoreData/RxCoreData.framework/Headers/RxCoreData-Swift.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/Action/Action.framework/Headers/Action-Swift.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/Differentiator/Differentiator.framework/Headers/Differentiator-Swift.h"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxDataSources/RxDataSources.framework/Headers/RxDataSources-Swift.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/NSObject+Rx/NSObject_Rx.framework/Headers/NSObject_Rx-Swift.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxRelay/RxRelay.framework/Headers/RxRelay-Swift.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXDelegateProxy.h"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Modules/module.modulemap"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxCoreData/RxCoreData.framework/Modules/module.modulemap"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/Action/Action.framework/Modules/module.modulemap"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/Differentiator/Differentiator.framework/Modules/module.modulemap"
+- "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxDataSources/RxDataSources.framework/Modules/module.modulemap"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/module.modulemap"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/NSObject+Rx/NSObject_Rx.framework/Modules/module.modulemap"
 - "/Users/MohamedNawar/Desktop/MyMVVMRxSwiftExample/build/Debug-iphonesimulator/RxRelay/RxRelay.framework/Modules/module.modulemap"
@@ -282,4 +505,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "cbefbd09e5c19db006bc8d526515454c"
+interface-hash: "545ef0132905fa523679eb2249d3aff4"

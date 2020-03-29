@@ -39,6 +39,11 @@ class SceneCoordinator: SceneCoordinatorType {
                 break
             }
             
+            nav.rx.willShow
+                .subscribe(onNext: { [unowned self] event in
+                    self.currentVC = event.viewController.sceneViewController
+                }).disposed(by: bag)
+            
             nav.pushViewController(target, animated: animated)
             currentVC = target.sceneViewController
             
@@ -57,7 +62,7 @@ class SceneCoordinator: SceneCoordinatorType {
         return Completable.create { [unowned self] completable in
             if let presentingVC = self.currentVC.presentingViewController {
                 self.currentVC.dismiss(animated: animated) {
-                    self.currentVC = presentingVC
+                    self.currentVC = presentingVC.sceneViewController
                     completable(.completed)
                 }
             } else if let nav = self.currentVC.navigationController {
